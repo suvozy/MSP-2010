@@ -1,0 +1,1851 @@
+﻿* { margin: 0px; padding: 0px; }
+
+html { overflow-y: scroll; }
+body, .msp-content-body{
+	background-color: #fefcf9; /*overflow-y: visible; */
+	background-image: url('/_layouts/MSPUserInterface/images/main_bg.png');
+	background-repeat: repeat-x;
+	color: #464646;
+	font-size: 11px;
+	text-align: left;
+}
+#aspnetForm {
+	background: url(/_layouts/MSPUserInterface/images/textured_bg.png) no-repeat center top;
+	min-width: 980px;
+}
+
+/* #Background styles below clear content inside div since 
+   floated content will spill outside div and not get proper panel borders */
+#Background { 
+	zoom: 1; 
+	padding: 1px 0; /* fix elements inside with margin causing gap */
+}
+#Background:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+img, a { border: 0px; }
+
+a, .WebPartFooterStyle a, a:link, a:visited, a:active {
+	color: #0065a1 !important;
+	font-family: Verdana !important;
+	font-size: 10px !important;
+	font-style: normal !important;
+	outline: none;
+	text-decoration: none;
+}
+
+a .wht {
+	color: #ffffff !important;
+	font-family: Verdana !important;
+	font-size: 10px !important;
+	font-style: normal !important;
+	outline: none;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: #464646 !important;
+	font-family: Verdana !important;
+	font-size: 10px !important;
+	font-weight: normal !important;
+	text-align: left !important;
+}
+
+input {
+	font-family: Verdana !important;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.clearFloat {
+	clear: both;
+	font-size: 0px;
+	height: 0px;
+	line-height: 0px;
+}
+
+div.ms-WPBody {
+	color: #464646 !important;
+	font-family: verdana !important;
+	font-size: 11px;
+	text-align: left !important;
+}
+
+/*#outerdiv {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	overflow: show;
+} */
+/* --- Header --- */
+.header {
+	font-family: "Times New Roman" !important;
+	font-size: 10px;
+	height: 55px;
+	left: 0px;
+	position: absolute;
+	top: 0px; /*z-index: 7;*/
+	visibility: visible;
+	width: 741px;
+}
+
+.Logo {
+	height: 69px;
+	left: 46px;
+	position: absolute;
+	top: 0px;
+	visibility: visible;
+	width: 378px;
+	z-index: 1;
+}
+
+.logoImage {
+	background-image: url('/_layouts/MSPUserInterface/images/Logo.png');
+	background-repeat: no-repeat;
+	height: 57px;
+	left: 0px;
+	position: absolute;
+	top: 28px;
+	width: 329px;
+}
+
+.Welcomespacer {
+	color: #ffffff !important;
+	font-family: Verdana !important;
+	font-size: 12px !important;
+	font-style: normal;
+	font-weight: normal;
+	height: 43px;
+	right: 0;
+	padding-top: 2px;
+	position: absolute;
+	text-align: right !important;
+	visibility: visible;
+	z-index: 5;
+}
+
+.WelcomeSignIn {
+	color: #ffffff !important;
+	font-size: 12px !important;
+	font-style: normal;
+	font-weight: normal;
+	height: 33px;
+	left: 741px;
+	position: absolute;
+	text-align: right !important;
+	top: 0px;
+	width: 237px;
+	z-index: 3;
+}
+
+.signin {
+	color: #ffffff !important;
+	float: right;
+	font-family: Verdana !important;
+	font-size: 12px !important;
+	font-style: normal;
+	font-weight: normal;
+	height: 39px;
+	padding-right: 0px;
+	padding-top: 20px;
+	position: relative;
+	text-align: right !important;
+	visibility: visible;
+	width: 238px;
+	z-index: 4;
+}
+
+.pipe {
+	color: #cc0000 !important;
+	font-size: 18px !important;
+	font-weight: bolder;
+}
+
+.txt {
+	font-family: Verdana !important;
+	font-size: 12px !important;
+}
+
+.searchGoBtn {
+	display: inline-block;
+	width: 59px;
+	height: 43px;
+	margin: 0 0 0 3px;
+	background: url(/_layouts/MSPUserInterface/images/search_btn.png) no-repeat left top;
+	text-align: center;
+	line-height: 40px;
+}
+.srchBtn {
+	background-color: transparent;
+	background-image: url('/_layouts/MSPUserInterface/images/search_btn.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	border: none;
+	color: #000000 !important;
+	font-family: "Times New Roman" !important;
+	font-size: 16px !important;
+	font-weight: bold;
+	height: 40px;
+	outline: none;
+	width: 58px;
+}
+
+.go {
+	height: 22px;
+	left: 227px;
+	position: absolute;
+	top: 5px;
+	visibility: visible;
+	width: 45px;
+	z-index: 5;
+}
+
+.topMSP2 {
+	background-image: url('/_layouts/MSPUserInterface/images/top_msp_textured_bg_1.png');
+	background-position: 50% 96px;
+	background-repeat: no-repeat;
+	height: 155px;
+	left: 739px;
+	position: absolute;
+	top: 11px;
+	visibility: visible;
+	width: 245px;
+	z-index: 4;
+}
+
+.topMSP {
+	background-image: url('/_layouts/MSPUserInterface/images/top_msp_textured_bg_2.png');
+	background-position: bottom;
+	background-repeat: no-repeat;
+	height: 150px;
+	left: 718px;
+	position: absolute;
+	top: 38px;
+	visibility: visible;
+	width: 245px;
+	z-index: 4;
+}
+
+/* Change by Oleg 09/16 */
+.topMspImage {
+	background-image: url('/_layouts/MSPUserInterface/images/top_msp.png');
+	background-repeat: no-repeat;
+	height: 115px;
+	margin-left: -8px;
+	margin-top: 10px;
+	width: 220px;
+}
+
+
+.Background {
+	background-color: #FFFFFF;
+	background-image: url('/_layouts/MSPUserInterface/images/paper_bg_center.png');
+	background-repeat: repeat-x;
+	border-left: 1px solid #715D3F;
+	border-right: 1px solid #715D3F;
+	margin-left: 46px;
+	min-height: 360px;
+	text-align: left;
+	width: 932px;
+}
+
+.Menu {
+	background-image: url('/_layouts/MSPUserInterface/images/paper_top.png');
+	background-repeat: no-repeat;
+	height: 62px;
+	left: 43px;
+	position: absolute;
+	top: 60px;
+	visibility: visible;
+	width: 943px;
+	z-index: 5;
+}
+
+.MenuBlank {
+	background-image: url('/_layouts/MSPUserInterface/images/paper_top.png');
+	background-repeat: no-repeat;
+	height: 62px;
+	left: -5px;
+	position: absolute;
+	top: 88px;
+	width: 943px;
+}
+
+.center {
+	background-color: #FFFFFF;
+	background-image: url('/_layouts/MSPUserInterface/images/main_panel.png');
+	background-repeat: no-repeat;
+	height: 389px;
+	left: 48px;
+	position: absolute;
+	top: 122px;
+	visibility: visible;
+	width: 699px;
+	z-index: 6;
+}
+
+/* Menu */
+ul#msp-menu { 
+	list-style: none; 
+	margin: 0 0 0 24px !important; 
+	width: 695px; 
+}
+
+ul#msp-menu li { display: inline; }
+
+ul#msp-menu li a {
+	background-image: url('/_layouts/MSPUserInterface/images/full_menu.png');
+	display: block;
+	float: left;
+	height: 62px;
+	text-indent: -9999px;
+}
+
+ul#msp-menu li a.home { background-position: 0px 0px; width: 77px; }
+
+ul#msp-menu li a.activities { background-position: -77px 0px; width: 102px; }
+
+ul#msp-menu li a.resources { background-position: -179px 0px; width: 106px; }
+
+ul#msp-menu li a.gallery { background-position: -285px 0px; width: 88px; }
+
+ul#msp-menu li a.search { background-position: -373px 0px; width: 84px; }
+
+ul#msp-menu li a.admin { background-position: -457px 0px; width: 84px; }
+
+/* button clicked */
+ul#msp-menu li a.home:hover, ul#msp-menu li a.home:focus { background-position: 0 -62px; }
+
+ul#msp-menu li a.activities:hover, ul#msp-menu li a.activities:focus { background-position: -77px -62px; }
+
+ul#msp-menu li a.resources:hover, ul#msp-menu li a.resources:focus { background-position: -179px -62px; }
+
+ul#msp-menu li a.gallery:hover, ul#msp-menu li a.gallery:focus { background-position: -285px -62px; }
+
+ul#msp-menu li a.search:hover, ul#msp-menu li a.search:focus { background-position: -373px -62px; }
+
+ul#msp-menu li a.admin:hover, ul#msp-menu li a.admin:focus { background-position: -457px -62px; }
+
+.tabs {
+	color: #111111;
+	font-family: Times New Roman !important;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.tabLabels {
+	background-color: transparent;
+	border: 1px none #000000;
+	height: 16px;
+	left: 76px;
+	position: absolute;
+	top: 132px;
+	visibility: visible;
+	width: 600px;
+}
+
+.bktsTb {
+	color: #cc0000;
+	font-family: Verdana !important;
+	font-size: 18px !important;
+	font-weight: bold !important;
+	vertical-align: middle !important;
+}
+
+.bktsClTb {
+	color: #cc0000;
+	font-family: Verdana !important;
+	font-size: 18px !important;
+	padding-right: 20px;
+}
+
+/*  End Menu */
+
+
+/* -- style for Image scroller control of upper right box -- */
+.boxTitle {
+	color: #464646;
+	font-family: Verdana !important;
+	font-size: 10px !important;
+	font-weight: bold !important;
+}
+
+.boxTxt {
+	color: #464646;
+	font-family: Verdana !important;
+	font-size: 10px !important;
+	font-style: normal !important;
+}
+
+.messageTxt { font-style: italic !important; padding: 10px 5px 0 5px; }
+
+/* danielg - added a.boxA to force style in ActivitiesByLocalCategoryUserControl */
+a.boxA, .boxA, .UsrNameStyle {
+	color: #0065a1 !important;
+	font-family: Verdana !important;
+	font-size: 11px !important;
+	font-style: normal !important;
+}
+
+/* end of Image scroller style */
+/* Center Body */
+.WhatAreWeLookingFor {
+	height: 37px;
+	left: 275px;
+	position: absolute;
+	top: 152px;
+	visibility: visible;
+	width: 227px;
+	z-index: 7;
+}
+
+.banner1 {
+	background-image: url('/_layouts/MSPUserInterface/images/section_header.png');
+	background-repeat: no-repeat;
+	height: 31px;
+	left: 0px;
+	padding-left: 10px;
+	padding-top: 4px;
+	position: absolute;
+	top: 5px;
+	visibility: visible;
+	width: 219px;
+}
+
+.Centertext {
+	height: 86px;
+	left: 288px;
+	position: absolute;
+	top: 188px;
+	visibility: visible;
+	width: 200px;
+	z-index: 9;
+}
+
+.WhatsInItForMe {
+	height: 37px;
+	left: 275px;
+	position: absolute;
+	top: 273px;
+	visibility: visible;
+	width: 244px;
+	z-index: 13;
+}
+
+.banner2 {
+	background-image: url('/_layouts/MSPUserInterface/images/section_header.png');
+	background-repeat: no-repeat;
+	height: 31px;
+	left: 0px;
+	padding-left: 10px;
+	padding-top: 4px;
+	position: absolute;
+	top: 5px;
+	visibility: visible;
+	width: 219px;
+}
+
+.WhatCanIExpect {
+	height: 50px;
+	left: 487px;
+	position: absolute;
+	top: 155px;
+	visibility: visible;
+	width: 242px;
+	z-index: 8;
+}
+
+.banner3 {
+	background-image: url('/_layouts/MSPUserInterface/images/section_header.png');
+	background-repeat: no-repeat;
+	height: 31px;
+	left: 17px;
+	padding-left: 10px;
+	padding-top: 4px;
+	position: absolute;
+	top: 4px;
+	visibility: visible;
+	width: 219px;
+}
+
+.Centerlowertext {
+	height: 192px;
+	left: 276px;
+	position: absolute;
+	top: 305px;
+	visibility: visible;
+	width: 244px;
+	z-index: 15;
+}
+
+.bullet {
+	background-image: url('/_layouts/MSPUserInterface/images/bullet_point.png');
+	background-position: top left;
+	background-repeat: no-repeat;
+	height: 21px;
+	left: 1px;
+	margin-top: 5px;
+	position: absolute;
+	visibility: visible;
+	width: 20px;
+}
+
+.titletxt {
+	font-family: Verdana !important;
+	font-size: 10px !important;
+	margin-right: 12px;
+	max-width: 195px;
+	padding-left: 25px;
+	padding-top: 8px;
+}
+
+.Centerrighttext {
+	height: 94px;
+	left: 499px;
+	position: absolute;
+	top: 185px;
+	visibility: visible;
+	width: 265px;
+	z-index: 10;
+}
+
+.expectContent {
+	font-family: Verdana !important;
+	font-size: 10px !important;
+	margin-right: 60px;
+	margin-top: 2px;
+	max-width: 255px;
+	padding-left: 19px;
+}
+
+.Video {
+	width: 190px;
+	height: 145px;
+	position: absolute;
+	left: 20px;
+	top: 140px;
+	visibility: visible;
+	z-index: 14;
+	border: 2px #E4B97C solid;
+	padding: 1px;
+	background: #707070;
+}
+
+.ApplyNow {
+	height: 35px;
+	left: 749px;
+	position: absolute;
+	top: 205px;
+	visibility: visible;
+	width: 229px;
+	z-index: 11;
+}
+
+.Righttext {
+	height: 99px;
+	left: 738px;
+	position: absolute;
+	top: 235px;
+	visibility: visible;
+	width: 283px;
+	z-index: 12;
+}
+
+.banner4 {
+	background-image: url('/_layouts/MSPUserInterface/images/section_header.png');
+	background-repeat: no-repeat;
+	height: 31px;
+	left: 5px;
+	padding-left: 10px;
+	padding-top: 4px;
+	position: absolute;
+	top: 1px;
+	visibility: visible;
+	width: 219px;
+}
+
+.applyContent {
+	font-family: Verdana !important;
+	font-size: 10px !important;
+	margin-right: 60px;
+	margin-top: 2px;
+	max-width: 255px;
+	padding-left: 30px;
+}
+
+.GetStarted {
+	height: 40px;
+	left: 755px;
+	padding-left: 30px;
+	position: absolute;
+	top: 339px;
+	visibility: visible;
+	width: 283px;
+	z-index: 16;
+}
+
+
+.bktsft {
+	color: #cc0000;
+	font-family: Verdana !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+}
+
+.GetStartedButton {
+	background-image: url('/_layouts/MSPUserInterface/images/get_started_button.png');
+	background-repeat: no-repeat;
+	color: #363636;
+	font-family: Verdana !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	height: 33px;
+	left: 14px;
+	padding-left: 9px;
+	padding-top: 4px;
+	position: absolute;
+	top: 6px;
+	width: 146px;
+	z-index: 27;
+}
+.GetStartedButton a {
+	color: #363636;
+	font-family: Verdana !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+}
+.Country {
+	color: #363636;
+	font-family: Verdana !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	height: 110px;
+	left: 755px;
+	position: absolute;
+	top: 379px;
+	visibility: visible;
+	width: 283px;
+	z-index: 17;
+}
+
+.selectCountry {
+	height: 45px;
+	left: -2px;
+	padding-left: 17px;
+	position: absolute;
+	top: 12px;
+	visibility: visible;
+	width: 232px;
+	z-index: 17;
+}
+
+.banner {
+	color: #ffffff;
+	font-family: Verdana !important;
+	font-size: 12px !important;
+	padding-left: 10px;
+	padding-top: 30px;
+}
+
+.bold, .msp-mylink-title, .WebPartListStyle #head { font-weight: bold !important; }
+
+.italic { font-style: italic !important; }
+
+.divider {
+	background-image: url('/_layouts/MSPUserInterface/images/divider_line.png');
+	background-repeat: repeat-y;
+	left: 504px;
+	min-height: 213px;
+	position: absolute;
+	top: 252px;
+	visibility: visible;
+	width: 7px;
+	z-index: 13;
+}
+
+.star_divider, .msp-content-section-vert-divider {
+	background-image: url('/_layouts/MSPUserInterface/images/stars.png');
+	background-repeat: repeat-y;
+	display: block;
+	width: 7px;
+}
+
+.MenuItemLast {
+	background-image: url('/_layouts/MSPUserInterface/images/blue_divider_360px.png');
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	line-height: 30px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+/* Footer */
+.title {
+	color: #464646;
+	font-family: Verdana !important;
+	font-size: 11px !important;
+}
+
+.titletxtR {
+	font-family: Verdana !important;
+	font-size: 10px !important;
+	margin-right: 8px;
+	margin-top: 8px;
+	max-width: 150px;
+}
+
+.titletxtWht {
+	color: #ffffff;
+	font-family: Verdana !important;
+	font-size: 10px !important;
+}
+
+.titlebtn {
+	background-image: url('/_layouts/MSPUserInterface/images/get_started_button.png');
+	background-position: top left;
+	background-repeat: no-repeat;
+	color: #363636;
+	font-family: Verdana !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+}
+
+.select {
+	color: #464646;
+	font-family: Verdana !important;
+	font-size: 11px;
+	font-style: normal;
+}
+
+select[type="one"] {
+	color: #464646;
+	font-family: Verdana !important;
+	font-size: 11px;
+	font-style: normal;
+}
+
+.share {
+	height: 100px;
+	left: 741px;
+	position: absolute;
+	top: 252px;
+	visibility: visible;
+	width: 283px;
+	z-index: 15;
+}
+
+/* -- Bottom Block -- */
+.bottomBlock {
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-top: 10px;
+	max-height: 135px;
+	max-width: 202px;
+}
+
+.bottomTitle {
+	color: #464646;
+	font-family: Verdana !important;
+	font-size: 10px;
+	font-weight: bold;
+	padding-bottom: 3px;
+	padding-top: 0px;
+	white-space: nowrap;
+}
+
+.bottomTxt {
+	color: #0065a1;
+	font-family: Verdana !important;
+	font-size: 10px;
+	line-height: 16px;
+}
+
+.blueLine, .msp-horz-divider {
+	background-image: url('/_layouts/MSPUserInterface/images/blue_divider_930px.png');
+	background-repeat: no-repeat;
+	height: 12px;
+	left: 48px;
+	position: absolute;
+	top: 509px;
+	visibility: visible;
+	width: 929px;
+	z-index: 18;
+}
+
+.blueLine2 {
+	background-image: url('/_layouts/MSPUserInterface/images/blue_divider_930px.png');
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	line-height: 30px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.software {
+	height: 132px;
+	left: 45px;
+	padding-left: 20px;
+	position: absolute;
+	top: 501px;
+	visibility: visible;
+	width: 189px;
+	z-index: 18;
+}
+
+.discounts {
+	height: 132px;
+	left: 228px;
+	position: absolute;
+	top: 501px;
+	visibility: visible;
+	width: 189px;
+	z-index: 22;
+}
+
+.studentA {
+	height: 132px;
+	left: 411px;
+	position: absolute;
+	top: 501px;
+	visibility: visible;
+	width: 189px;
+	z-index: 23;
+}
+
+.studentR {
+	height: 132px;
+	left: 593px;
+	position: absolute;
+	top: 501px;
+	visibility: visible;
+	width: 189px;
+	z-index: 24;
+}
+
+.fun {
+	height: 132px;
+	left: 775px;
+	position: absolute;
+	top: 501px;
+	visibility: visible;
+	width: 189px;
+	z-index: 25;
+}
+
+
+
+/* end Bottom Block */
+/* end Body */
+/* -- Footer Block -- */
+.footerDiv, .footerDiv2 {
+	margin-left: 46px;
+	text-align: left;
+	width: 934px;
+}
+.footerDiv {
+	background-color: #ffffff;
+}
+.bottomBar {
+	background-image: url('/_layouts/MSPUserInterface/images/paper_bg_bottom.png');
+	background-repeat: no-repeat;
+	height: 50px;
+	margin-left: -30px;
+	width: 990px;
+	background-color: transparent;
+}
+.footer {
+	border: 1px none #000000;
+	height: 54px;
+	width: 934px;
+}
+
+.footerTable {
+	border-left: 1px solid #715D3F;
+	border-right: 1px solid #715D3F;
+	width: 100%;
+}
+.footerTable td { vertical-align: top; }
+
+.footerLinks {
+	margin-bottom: 16px;
+	margin-top: 21px;
+	text-align: left;
+}
+
+.footerLinks, .footerLinks a.footerLinks {
+	color: #111111 !important;
+	font-family: "Times New Roman" !important;
+	font-size: 12px !important;
+	font-variant: normal !important;
+}
+
+.MSLogo {
+	background-image: url('/_layouts/MSPUserInterface/images/MS_logo.png');
+	background-repeat: no-repeat;
+	border: 1px none #000000;
+	height: 55px;
+	margin-left: 704px;
+	margin-top: -40px;
+	width: 175px;
+}
+
+.copy {
+	border: 1px none #000000;
+	color: #111111;
+	float: right;
+	font-family: Verdana !important;
+	font-size: 10px;
+	font-variant: normal !important;
+	height: 15px;
+	margin-left: 0px;
+	margin-top: -45px;
+	padding-top: 0px;
+	text-align: right;
+	width: 100px;
+	z-index: 29;
+}
+
+a.ftr {
+	font-family: "Times New Roman" !important;
+	font-size: 12px !important;
+	font-variant: normal !important;
+}
+
+/* 9.1. Public profile */
+.AboutMe {
+	color: #464646;
+	font-family: Verdana, sans-serif !important;
+	font-size: 15px !important;
+	font-weight: bold;
+	margin-left: 0;
+}
+
+.profile_picture_top {
+	background-image: url('/_layouts/MSPUserInterface/images/profile_picture_frame_top.png');
+	background-repeat: no-repeat;
+	border: 1px none #000000;
+	height: 40px;
+	min-height: 40px;
+	width: 132px;
+}
+
+.profile_picture_center {
+	background-image: url('/_layouts/MSPUserInterface/images/profile_picture_frame_center.png');
+	background-repeat: repeat-y;
+	border: 1px none #000000;
+	width: 132px;
+}
+
+.profile_picture_bottom {
+	background-image: url('/_layouts/MSPUserInterface/images/profile_picture_frame_bottom.png');
+	background-repeat: no-repeat;
+	border: 1px none #000000;
+	height: 50px;
+	min-height: 50px;
+	width: 132px;
+}
+
+.userProfilePage .GryTxt, .userProfilePage .GryTxt2 {
+	font-size: 11px !important;
+}
+.userProfilePage .GryTxt2 {
+	color: #464646 !important;
+}
+
+.TeamSection table {
+	/* Enables names to use 20px padding of column 
+	   if they are too long without disrupting layout */
+	margin-right: -20px; 
+}
+
+/* ade home */
+.WhtBannerTxt {
+	color: #ffffff !important;
+	font-family: Verdana !important;
+	font-size: 12px !important;
+	padding-left: 4px;
+	padding-top: 4px;
+}
+
+.BluBannerTxt {
+	color: #59A4D1;
+	font-family: Verdana !important;
+	font-size: 12px !important;
+}
+
+.BluBoxTitle {
+	color: #0065A1;
+	font-family: Verdana !important;
+	font-size: 10px !important;
+	font-weight: bold !important;
+}
+
+.bannerTitle, .msp-content-section-header-text {
+	background-image: url('/_layouts/MSPUserInterface/images/blue_header_center.png');
+	background-repeat: repeat-x;
+	height: 30px;
+	left: 0px;
+	margin-left: 0px;
+	margin-top: 1px;
+	min-width: 50px;
+	padding-top: 6px;
+	position: absolute;
+	z-index: 2;
+}
+
+.BlkTitlebtn, a.BlkTitlebtn {
+	color: #363636 !important;
+	font-family: Verdana !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+}
+
+.BlkTitlebtn12 {
+	color: #363636;
+	font-family: Verdana !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+}
+
+.GryTitlebtn {
+	border-bottom: 2px #ccc solid;
+	height: 19px;
+}
+.GryTitlebtn a {
+	color: #464646 !important;
+	font-family: Verdana !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	border: 1px transparent solid;
+	border-bottom: 2px transparent solid;
+}
+
+.GryTxt2, .WebPartListStyle li div {
+	color: #424242;
+	font-family: Verdana !important;
+	font-size: 12px !important;
+}
+
+.GryTxtDk {
+	color: #424242;
+	font-family: Verdana !important;
+	font-size: 10px !important;
+}
+
+/* Change by Oleg 09/16 */
+.dashed_divider, .msp-mylink-title-divider, .msp-horz-divider, .msp-content-section-header-divider, .BottonLine, .WebPartListStyle li, .HeadLine {
+	background-image: url('/_layouts/MSPUserInterface/images/dashed_divider_512px.png');
+	background-repeat: repeat-x;
+	float: left;
+	height: 4px;
+	margin-top: 7px;
+	width: 100%;
+}
+
+.bt_line {
+	background-image: url('/_layouts/MSPUserInterface/images/dashed_divider_512px.png');
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	line-height: 22px;
+}
+
+/* change by Oleg 09/16  copy from WebPartTitleStyle */
+.blue_divider, .msp-content-section-header-divider {
+	background-image: url('/_layouts/MSPUserInterface/images/blue_divider_208px.png');
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	color: #ffffff !important;
+	display: block;
+	font-family: Verdana !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	min-width: 208px;
+	padding-bottom: 0px;
+	padding-top: 12px;
+	white-space: nowrap !important;
+}
+.footerDiv .blue_divider {
+	border-left: #715d3f 1px solid;
+	border-right: #715d3f 1px solid;
+	width: auto !important;
+}
+
+.points_badge, .PointImage {
+	background-color: transparent !important;
+	background-image: url('/_layouts/MSPUserInterface/images/points_badge.png') !important;
+	background-repeat: no-repeat;
+	font-family: Verdana !important;
+	font-size: 10px !important;
+	font-weight: bold !important;
+	height: 16px !important;
+	padding-top: 1px;
+	text-align: center !important;
+	width: 66px !important;
+}
+
+.space {
+	background-image: url('/_layouts/MSPUserInterface/images/Space.png') !important;
+}
+
+.GryTxt {
+	color: #868686;
+	font-family: Verdana !important;
+	font-size: 10px !important;
+}
+
+.GryTxt2, .WebPartListStyle li div {
+	color: #868686;
+	font-family: Verdana !important;
+	font-size: 12px !important;
+}
+
+button { overflow: visible; width: auto; }
+
+button.link {
+	background: none;
+	border: none;
+	color: #363636;
+	cursor: pointer;
+	font-family: Verdana !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+button.link span { text-decoration: underline; }
+
+button.link: hover span, button.link: focus span { color: #ff0000; }
+
+#nav { float: left; height: 28px; width: 250px; }
+
+.leftNav {
+	background: url('/_layouts/MSPUserInterface/images/blue_header_left.png') no-repeat;
+	float: right;
+	height: 28px;
+	width: 10px;
+}
+
+.rightNav {
+	background: url('/_layouts/MSPUserInterface/images/blue_header_right.png') no-repeat;
+	float: right;
+	height: 28px;
+	width: 22px;
+}
+
+.navRepeat a {
+	background: url('/_layouts/MSPUserInterface/images/blue_header_center.png') repeat-x;
+	float: right;
+	height: 28px;
+	outline: none;
+	text-decoration: none;
+}
+
+/* blue banners */
+.WebPartTitleStyle {
+	background-image: url('/_layouts/MSPUserInterface/images/blue_divider_360px.png');
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	color: #ffffff !important;
+	font-family: Verdana !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	padding-bottom: 0px;
+	padding-top: 10px;
+	white-space: nowrap !important;
+}
+
+.WebPartTitleStyle #TitleBG {
+	background-image: url('/_layouts/MSPUserInterface/images/blue_header_center.png');
+	background-repeat: repeat-x;
+	font-size: 11px !important;
+	height: 28px;
+}
+
+.italicText { font-size: 10px; font-style: italic; }
+
+	
+/* change by Oleg  09/16*/
+.blue_divider #TitleBG {
+	background-image: url('/_layouts/MSPUserInterface/images/blue_header_center.png');
+	background-repeat: repeat-x;
+	height: 28px;
+}
+
+.WebPartListStyle #date { color: #868686; font-size: 12px; margin-left: 200px; }
+
+.WebPartListStyle #title { color: #868686; font-size: 11px; }
+
+/* Blue Buttons */
+span.button.blue {
+	background: url('/_layouts/MSPUserInterface/images/blue_btn_right.png') no-repeat right top;
+}
+
+span.button.blue span {
+	background: url('/_layouts/MSPUserInterface/images/blue_btn.png') no-repeat left top;
+}
+
+span.button.blue span a { color: #fff !important; }
+
+/* Button States */
+span.button: hover, span.button.hover { background-position: right -23px; }
+
+span.button: hover span, span.button.hover span { background-position: left -23px; }
+
+span.button: active, span.button.active { background-position: right -46px; }
+
+span.button: active span, span.button.active span { background-position: left -46px; }
+
+.BrowseCategorybtn, .BrowseCategorybtn:active, .BrowseCategorybtn:hover {
+	background-color: transparent;
+	border: transparent solid 1px;
+	border-width: 0 0 2px 0;
+	color: #363636;
+	cursor: pointer;
+	font-family: Verdana !important;
+	font-size: 14px !important;
+	font-weight: bold !important;	
+}
+.browseCategoryNav .BrowseCategorybtn, 
+.browseCategoryNav .BrowseCategorybtn:active, 
+.browseCategoryNav .BrowseCategorybtn:hover {
+	display: block;
+	float: left;
+	width: 141px;
+	height: 24px;
+}
+.browseCategoryNav .BrowseCategorybtn.activeButton 
+{
+  border-color: transparent transparent #cc0000 transparent
+}
+
+/* Added by Oleg on 09/09 at 3PM 
+Franchesca, please revise
+*/
+td { border: 0px solid #ffffff; }
+
+input[type="file"] /* the same as blktblbtn */ {
+	color: #363636;
+	font-family: Verdana !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+}
+
+.ms-hide { display: none; }
+
+.bannerTitleLeft {
+	background-image: url('/_layouts/MSPUserInterface/images/blue_header_left.png');
+	height: 30px;
+	left: 0px;
+	margin-left: 0px;
+	margin-top: 1px;
+	padding-top: 6px;
+	position: absolute;
+	text-align: left;
+	top: 15px;
+	width: 10px;
+	z-index: 1;
+}
+
+.bannerTitleRight {
+	background-image: url('/_layouts/MSPUserInterface/images/blue_header_right.png');
+	height: 30px;
+	left: 0px;
+	margin-left: 0px;
+	margin-top: 1px;
+	padding-top: 6px;
+	position: absolute;
+	text-align: right;
+	width: 22px;
+	z-index: 3;
+}
+
+.silverDivider {
+	border-bottom-color: #868686;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-collapse: collapse;
+	float: left;
+	margin-bottom: 7px;
+	width: 100%;
+}
+
+.DMPlaceholder { padding-bottom: 30px; text-align: center; width: 100%; }
+
+.date { color: #868686; font-size: 12px; margin-left: 200px; }
+
+/* Grid View */
+.AlertRowStyle {
+	background-color: #fff;
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	height: 52px;
+	text-align: center;
+}
+
+.RowStyle {
+	background-color: #fafafa;
+	height: 52px;
+	text-align: center;
+}
+
+.AlertRowStyle_NT {
+	background-color: #fff;
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	height: 30px;
+	text-align: left;
+}
+
+.RowStyle_NT {
+	background-color: #fafafa;
+	height: 30px;
+	text-align: left;
+}
+
+#ctl00_PlaceHolderMain_GridView1 td { padding-left: 3px; }
+
+.msp-mylink-title-divider, #ManageTitle {
+	background: url('/_layouts/MSPUserInterface/images/dashed_divider_132px.png') repeat-x left bottom;
+	color: #59a4d1;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	padding-bottom: 3px;
+	width: 892px;
+}
+
+.ImageBorder {
+	background-image: url('/_layouts/MSPUserInterface/images/avatar_frame.png');
+	background-repeat: no-repeat;
+	height: 46px;
+	padding: 3px 3px 3px 3px;
+	width: 46px;
+}
+
+.ImageBorderGridView {
+	background-image: url('/_layouts/MSPUserInterface/images/avatar_frame.png');
+	background-repeat: no-repeat;
+	height: 46px;
+	padding: 32px 3px 3px 3px;
+	width: 46px;
+}
+
+/* GridView Style End */
+.ImageSection { padding-bottom: 10px; padding-top: 10px; }
+
+#Pager {
+	color: #535353;
+	font-family: Verdana;
+	font-size: 10px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	text-align: right;
+}
+
+.PageNumber { margin-left: 4px; margin-right: 5px; }
+
+.SelectedPageNumber { border-bottom: 2px #cc0000 solid; }
+
+#Pager a, #Pager a:link, #Pager a:visited, 
+#Pager a:hover, #Pager a:active { color: #363636 !important; text-decoration: none; }
+
+	
+#Pager a:hover { color: #cc0000 !important; }
+
+#Pager a.PageNumber:hover {
+	border-bottom: 2px #363636 solid;
+	color: #363636 !important;
+}
+
+#Pager a.SelectedPageNumber:hover { border-bottom: 2px #cc0000 solid; }
+
+#Pager a img { border: none; vertical-align: middle; }
+
+.msp-content-section-header-left { text-align: right; }
+
+.msp-content-section-header-right { text-align: left; }
+
+.msp-content-section-control { min-height: 40px; }
+
+.msp-mylink-block { margin-bottom: 10px; }
+
+.msp-3col-left {
+	display: inline;
+	position: absolute;
+	visibility: visible;
+	width: 360px;
+}
+
+.msp-3col-middle {
+	left: 620px;
+	position: absolute;
+	visibility: visible;
+	width: 360px;
+}
+
+.msp-3col-right {
+	left: 990px;
+	margin-left: 10px;
+	position: absolute;
+	visibility: visible;
+	width: 130px;
+}
+
+.HeaderDiv {
+	height: 148px;
+	margin-left: 46px;
+	text-align: left;
+	width: 932px;
+}
+
+/*Admin Pages Style -tong*/
+.MidParenthesesStyle { color: #cc0000; font-size: 16px; font-weight: bold; }
+
+.LinkBtnStyle a, .LinkBtnStyle a:link, .LinkBtnStyle a:hover, .LinkBtnStyle a:visited {
+	color: #464646 !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	text-decoration: none !important;
+}
+
+#ManageTitle {
+	background: url('/_layouts/MSPUserInterface/images/dashed_divider_132px.png') repeat-x left bottom;
+	color: #59a4d1;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	padding-bottom: 3px;
+	width: 892px;
+}
+
+.MiddleIcomCol img { margin-left: 19px; }
+
+.DeleteBtnCol { padding-top: 3px; }
+
+.TitleWithSplitImage {
+	background: url('/_layouts/MSPUserInterface/images/splitline.png') no-repeat right;
+}
+
+.ManageListAlertRowStyle {
+	background-color: #fff;
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+}
+
+.ManageListRowStyle { background-color: #fafafa; }
+
+#TopControlPanel {
+	background: url('/_layouts/MSPUserInterface/images/dashed_divider_132px.png') repeat-x left bottom;
+	line-height: 30px;
+	padding-bottom: 3px;
+	padding-top: 5px;
+	vertical-align: baseline;
+	width: 892px;
+}
+
+.colID { display: none; }
+
+/* ActivitiesByLocalCategoryUserControl */	
+#ActivitiesLocalCategoryDiv div a.boxA { display: block; margin: 5px 5px 7px; }
+
+#ActivitiesLocalCategoryDiv .dashed_divider { display: block; float: none; }
+
+/* HighlightedGlobalActivitiesUserControl */
+#HighlightedGlobalActivitiesDiv div a.boxA { display: block; margin: 5px; }
+
+#HighlightedGlobalActivitiesDiv .points_badge { margin-left: 5px; }
+
+#HighlightedGlobalActivitiesDiv .dashed_divider { display: block; float: none; }
+
+/* MostPopularActivitiesUserControl */
+#MostPopularActivitiesDiv div a.boxA { display: block; margin: 5px; }
+
+#MostPopularActivitiesDiv .points_badge { margin-left: 5px; }
+
+#MostPopularActivitiesDiv .dashed_divider {
+	clear: both;
+	display: block;
+	float: left;
+	margin: 7px 0 5px;
+}
+
+/* MyActivitiesMSPActivityUserControl and MyActivitiesADEActivityUserControl */
+#MSPActivitiesDiv .dashed_divider, #ADEActivitiesDiv .dashed_divider { display: block; float: none; }
+
+#MSPActivitiesDiv a.BluBoxTitle, #ADEActivitiesDiv a.BluBoxTitle {
+	display: block;
+	font-size: 11px !important;
+	margin: 5px;
+}
+
+#MSPActivitiesDiv .BlkTitlebtn, #ADEActivitiesDiv .BlkTitlebtn { margin-left: 5px; }
+
+/* ActivityBrowseWebPartUserControl */
+#ActivityBrowseDiv a.BluBoxTitle { font-size: 11px !important; }
+
+.ActivityBrowseTreeView td {
+	min-height: 12px; 
+	vertical-align: top;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.ActivityBrowseTreeView td > img {
+	width: 25px; height: 10px;
+}
+.ActivityBrowseTreeView > table {
+	background: url(/_layouts/MSPUserInterface/images/dashed_divider_512px.png) repeat-x left top;
+	width: 100%;
+}
+.ActivityBrowseTreeView > table:first-child { background: none; }
+.ActivityBrowseTreeView > table > tbody > tr > td:first-child { padding-right: 5px; width: 11px; vertical-align: top;}
+.ActivityBrowseTreeView > table > tbody > tr > td:first-child a { display: block; } 
+.ActivityBrowseTreeView > table > tbody > tr > td:first-child a img { display: block; margin-top: 1px; }
+.ActivityBrowseTreeView > div > table > tbody > tr > td:first-child div { display: none; }
+.ActivityBrowseTreeView div table td a img { margin-top: 3px; }
+
+
+/* Other TreeView menus that are structured differently 
+   but should be style the same way */
+   #MSPTreeView { margin-top: 10px; font-size: 11px !important; }
+   #MSPTreeView, #MSPTreeView .node, #MSPTreeView .subNode { line-height: 21px; }
+   #MSPTreeView .node li > table > tbody > tr td:first-child img,
+   #MSPTreeView .node li > table > tbody > tr td:first-child { vertical-align: middle; }
+   #MSPTreeView .node .subNode li table td:first-child { width: 14px; }
+
+/*  ActivitySignupStatusDiv */
+.ActivitySignupStatusDiv .dashed_divider { margin-bottom: 3px; }
+
+/* GetConnectedWebPartsUserControl */
+.msp-mylink-control {
+	border-bottom: #CCC 2px solid;
+	height: 27px;
+	margin: 7px 0 5px;
+	padding: 0;
+}
+
+.msp-mylink-control a {
+	border: 0;
+	display: block;
+	float: left;
+	height: 27px;
+	margin: 0 3px 0 5px;
+}
+
+.msp-mylink-control a img { border: 0; display: block; }
+
+.msp-mylink-control a:hover { border-bottom: #CC0000 2px solid; }
+
+/* ActivityProgressUserControl & AddActivityWebPartUserControl */
+.leftnav_iconlinks div img { vertical-align: middle; }
+
+.leftnav_iconlinks .dashed_divider { margin-bottom: 5px; }
+
+.required span { color: #cc0000; }
+
+.smallbreak { margin-bottom: 3px; }
+
+.break { margin-bottom: 10px; }
+
+.AddActivitiesDiv .label { 
+	width: 194px; 
+	padding-left: 15px;  
+	float: left;
+}
+
+.AddActivitiesDiv .label.required { 
+	width: 204px; 
+	padding-left: 5px; 
+}
+
+.AddActivitiesDiv .fieldCol {
+	width: 512px;
+	padding-left: 20px;
+	float: left;
+}
+
+/* Small avatar frame */
+.avatar_frame_top {
+	background: url('/_layouts/MSPUserInterface/images/avatar_frame_top.png') no-repeat left top;
+	height: 3px;
+	width: 45px;
+}
+
+.avatar_frame {
+	background: url('/_layouts/MSPUserInterface/images/avatar_frame_middle.png') repeat-y left top;
+	text-align: center;
+	width: 45px;
+}
+
+.avatar_frame img { margin: 0 auto; }
+
+.avatar_frame_bottom {
+	background: url('/_layouts/MSPUserInterface/images/avatar_frame_bottom.png') no-repeat left top;
+	height: 6px;
+	width: 45px;
+}
+
+/* don't change follow style */
+.WebPart_box {
+	font-size: 10px;
+	line-height: 22px;
+	list-style-type: none;
+	margin-left: 5px;
+	padding-bottom: 10px;
+}
+
+.WebPart_box li {
+	background-image: url('/_layouts/MSPUserInterface/images/dashed_divider_360px.png');
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+
+.WebPart_box p { color: #464646; }
+
+.lk_subTitle { color: #7d7d7d; font-size: 10px; }
+
+.blue_Text {
+	color: #0065a1;
+	font-family: Verdana !important;
+	font-size: 10px !important;
+}
+
+.dark_Blue_Text {
+	color: #0065a1 !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+}
+
+.vertical_Stars_Line {
+	background-image: url('/_layouts/MSPUserInterface/images/stars.png');
+	background-position: 5px top;
+	background-repeat: repeat-y;
+	padding-left: 15px;
+}
+
+/* resources pages */
+#ctl00_PlaceHolderMain_ResourcesList {
+	border: none;
+	font-size: 8pt;
+	line-height: 17px;
+	width: 100%;
+}
+
+        
+#ctl00_PlaceHolderMain_ResourcesList th {
+	border-bottom: 1px solid #b0b0b0;
+	color: #3a88b7;
+	line-height: 22px;
+	padding-left: 3px;
+	text-align: left;
+}
+
+        
+#ctl00_PlaceHolderMain_ResourcesList td { padding-left: 3px; }
+
+        
+#ctl00_PlaceHolderMain_CountriesList { margin-top: 4px; }
+
+#topButtons, #topButtons a, #topButtons a:link {
+	color: #333 !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+	line-height: 25px !important;
+}
+
+#details table td { border: none; line-height: 17px; padding-bottom: 4px; }
+
+/* 2 Column Basic layout 209/512/131 */
+table.PageBaseLayout {
+	margin-top: 12px;
+	table-layout: fixed;
+	width: 932px;
+}
+.PageBaseLayout table#ManageTitle {
+	width: 740px !important;
+}
+.PageBaseLayout td.indent {
+	padding-left: 5px;
+}
+.PageBaseLayout #TopControlPanel {
+	padding: 0;
+	line-height: normal;
+	width: 100%;
+}
+.PageBaseLayout #TopControlPanel td {
+	padding: 12px 0 5px;
+}
+.TopLeft {
+	padding: 0 0 0 20px;
+	width: 741px;
+	text-align:left;
+	vertical-align: top;
+}
+
+.TopRight {
+	padding: 0 20px;
+	width: 131px;
+	text-align:left;
+	vertical-align: top;
+}
+.TopRight.StarDivider {
+	background: url(/_layouts/MSPUserInterface/images/stars.png) repeat-y 7px 0;
+}
+.TopFull {
+	padding: 0 20px;
+	width: 892px;
+	text-align:left;
+	vertical-align: top;
+}
+.CenterLeft {
+	padding: 0 20px 0 0;
+	width: 208px;
+	text-align:left;
+	vertical-align: top;
+}
+.CenterMiddle {
+	padding: 0;
+	width: 512px;
+	text-align:left;
+	vertical-align: top;
+}
+
+/* end 3 Column Basic Layout */
+
+table.photoGrid tbody tr td {
+	padding: 7px 10px;
+}
+table.photoGrid tbody tr:first-child td {
+	padding-top: 0;
+}
+table.photoGrid tbody tr td:first-child {
+	padding-left: 0;
+}
+
+.browsePhotoFrame {
+	background-image: url('/_layouts/MSPUserInterface/images/photo_frame.png');
+	background-repeat: no-repeat;
+	height: 121px;
+	width: 154px;
+	padding-top:3px;
+    padding-bottom:3px;
+}
+
+.photoAlbumFrame {
+	background-image: url('/_layouts/MSPUserInterface/images/photo_album_frame.png');
+	background-repeat: no-repeat;
+	height: 78px;
+	width: 100px;
+	padding-top:3px;
+}
+
+
+/* Search Results */
+.srch-WPBody, .srch-Description2 {
+	font-size: 11px !important;
+	color: #464646 !important;
+}
+.srch-Description2 {
+	margin-bottom: 5px;
+}
+.srch-Title2 { 
+	margin-bottom: 3px;
+}
+.srch-Title2 A, .srch-Title2 A:link {
+	color: ##0065a1 !important;
+	text-decoration: none !important;
+	font-size: 12px !important;
+}
+.srch-Title2 A:hover {
+	text-decoration: underline !important;
+}
+
+.srch-URL2 {
+	color: #0065a1 !important;
+}
+
+/* Reports */
+.reportsGrid { margin-top: 10px; }
+.reportsGrid th {
+	padding: 4px 0;
+	border: 0;
+	border-bottom: #b0b0b0 1px solid;
+	min-height: 22px;
+	text-align: left;
+}
+.reportsGrid th.centerAligned {
+	text-align: center;
+}
+.reportsGrid td {
+	padding: 2px 0;
+}
+
+#GoDiv, #ExportDiv { display: block; float: right; }
+#GoDiv { margin-right: 5px; }
+.opacity50 { 
+	filter: alpha(opacity=50); 
+	opacity: 0.5; 
+}
+
+.mspGridPager td table { 
+	display: block; 
+	float: right; 
+	margin: 8px 8px 0 0;
+}
+.mspGridPager span {
+	margin: 0 4px;
+	color: #363636;
+	font-size: 11px !important;
+	border-bottom: #cc0000 2px solid;
+}
+.mspGridPager a, .mspGridPager a:link {
+	margin: 0 4px;		
+	color: #363636 !important;
+	font-size: 11px !important;		
+	border-bottom: transparent 2px solid;
+}
+.mspGridPager a:hover, .mspGridPager a:active {
+	border-bottom: #363636 2px solid;
+}
+
+/* everything prefixed by ui-multiselect is related to multiselect list box */
+
+.ui-multiselect { padding:2px 0 2px 4px; text-align:left }
+.ui-multiselect span.ui-icon { float:right }
+
+.ui-multiselect-header { margin-bottom:3px; padding:3px 0 3px 4px }
+.ui-multiselect-header ul { font-size:0.9em }
+.ui-multiselect-header ul li { float:left; padding:0 10px 0 0 }
+.ui-multiselect-header a { text-decoration:none }
+.ui-multiselect-header a:hover { text-decoration:underline }
+.ui-multiselect-header span.ui-icon { float:left }
+.ui-multiselect-header li.ui-multiselect-close { float:right; text-align:right; padding-right:0 }
+
+.ui-multiselect-menu { display:none; padding:3px; position:absolute; z-index:10000 }
+.ui-multiselect-checkboxes { position:relative /* fixes bug in IE6/7 */; overflow-y:scroll }
+.ui-multiselect-checkboxes label { cursor:default; display:block; border:1px solid transparent; padding:3px 1px }
+.ui-multiselect-checkboxes label input { position:relative; top:1px }
+.ui-multiselect-checkboxes li { clear:both; font-size:0.9em; padding-right:3px }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label { text-align:center; font-weight:bold; border-bottom:1px solid }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a { display:block; padding:3px; margin:1px 0; text-decoration:none }
+
+.ui-widget { font-family: Verdana,Arial,sans-serif !important; }
+.ui-state-default { background: #f6f6f6 url(https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.6/themes/pepper-grinder/images/ui-bg_fine-grain_10_f8f7f6_60x60.png) repeat-x 50% 50% !important; color: #2e6e9e !important; }
+.ui-widget-content { background: #f6f6f6 !important; color: ##464646 !important; }
+.ui-widget-content .ui-state-hover { font-weight: normal !important; background: #59A4D1 !important; }
+.ui-state-hover { border: 1px #2e6e93 solid !important; }
+.ui-multiselect-checkboxes li input[type='checkbox'] { margin: 0 5px; vertical-align: baseline; }
+.ui-state-active { color: #2e6e9e !important;  }
+.ui-state-hover .ui-icon, .ui-state-active .ui-icon { 
+	background-image: url(https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.6/themes/pepper-grinder/images/ui-icons_b83400_256x240.png) !important; 
+}
+
+/* remove label borders in IE6 because IE6 does not support transparency */
+* html .ui-multiselect-checkboxes label { border:none }

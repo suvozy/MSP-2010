@@ -1,0 +1,3830 @@
+/*
+Generics
+*/
+
+/* Microsoft MSP Website */
+.MspForumRoleLabel
+{
+	font-size: 75%;	
+}
+
+img { border: none; }
+
+.MspUsefulLink
+{
+	padding-bottom: 8px;
+}
+
+.MspWelcomeSidebar
+{
+	width: 300px;
+	height: 567px;
+	background-image: url(../images/MspWeb/SideBar.jpg);
+}
+
+.MspComingSoon
+{
+	width: 100%; 
+	background-repeat: no-repeat;
+	background-image: url(../images/MspWeb/comingSoonBg.jpg);
+}
+
+.MspCommonBody
+{
+	padding-left: 28px;
+	padding-right: 32px;
+	background-image: url(../images/MspWeb/mspInner_contentBg.jpg);
+	background-repeat: no-repeat;
+	min-height:675px;
+	height:auto !important;
+	height:675px;
+}
+
+.MspNavTop
+{
+	height: 90px;
+	background-repeat: no-repeat;
+	background-image: url(../images/MspWeb/header_Top.jpg);
+}
+
+.MspNavMiddle
+{
+	text-align: center;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-image: url(../images/MspWeb/header_expandingMiddle.gif);
+}
+
+.MspNavBottom
+{
+	clear: left;
+	width: 1024px;
+	height: 7px;
+	background-repeat: no-repeat;
+	background-image: url(../images/MspWeb/header_bottom.jpg);
+}
+
+.MspNavCell
+{
+	color: White;
+	padding: 4px;
+	text-align: center;
+	font-family: Georgia;
+	font-size: 125%;
+	max-width: 100px;
+}
+
+.MspNavCell A:LINK
+{
+	color: White;
+	text-decoration: none;
+}
+
+.MspNavCell A:VISITED
+{
+	color: White;
+	text-decoration: none;
+}
+
+.MspNavCell A:HOVER
+{
+	color: White;
+	text-decoration: none;
+}
+
+.MspNavCell A:ACTIVE
+{
+	color: White;
+	text-decoration: none;
+}
+
+.MspNavCell
+{
+}
+
+.MspNavCellSelected
+{
+	background-image: url(../images/MspWeb/msp_rolloverPink.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.MspNavCellOver A:LINK
+{
+	color: #423d38;
+}
+
+.MspNavCellOver A:VISITED
+{
+	color: White;
+}
+
+.MspNavCellOver A:HOVER
+{
+	color: White;
+}
+
+.MspNavCellOver A:ACTIVE
+{
+	color: White;
+}
+
+.MspContentHeader
+{
+	font-size: 85%;
+	font-family: Georgia;
+	font-weight: bold;
+	color: #423d38;
+	background-color: #fbf5e9;
+	height: 30px;
+	background-image: url(../images/MspWeb/contBox_fullWidth_Head.gif);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	width: 462px;
+}
+
+.MspContentWindow
+{
+	font-family: Tahoma;
+	font-weight: bold;
+	color: #423d38; 
+	background-color: #fbf5e9; 
+	width: 462px;
+}
+
+.MspContentWinHeader
+{
+	color: White;
+	background-color: #ab6935;
+}
+
+.MspContentWinLinkAlt
+{
+	background-color: #e3ddd1;	
+}
+
+.MspContentWinLink A:LINK
+{
+	color: #423d38;
+}
+
+.MspContentWinLink A:VISITED
+{
+	color: #423d38;
+}
+
+.MspContentWinLink A:ACTIVE
+{
+	color: #423d38;
+}
+
+.MspContentWinLink A:HOVER
+{
+	color: Gray;
+}
+
+.MspContentFooter
+{
+	width: 462px;
+	height: 12px;
+	background-image: url(../images/MspWeb/contBox_fullwidth_Foot.gif);
+	background-repeat: no-repeat;
+}
+
+.MspContentControlHeader
+{
+	width: 100%;
+	background-image: url(../images/MspWeb/contBox_full.gif);
+	background-color: #fbf5e9;
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+.MspContentControlHeaderText
+{
+	font-family: Tahoma;
+	color: #423d38;
+	font-weight: bold;
+	font-size: 180%; 
+}
+
+.MspContentHeaderControlHR
+{
+	color: #cac4b8;
+	background-color: #cac4b8;
+	width: 100%;
+	height: 1px;
+}
+
+.MspContentControlWindow
+{
+	width: 100%;
+	height: 100%;
+	font-family: Tahoma;
+	background-color: #fbf5e9;
+	text-align: left;
+	font-size: 10pt;
+}
+
+.MspHeaderSpacer
+{
+	height: 30px;
+}
+
+.MspReverseTitle
+{
+	font-size: 105%;
+	font-weight: bold;
+	padding: 4px 6px 4px 6px;
+	color: White;
+	background-color: #ab6935;	
+}
+
+.MspTabBarTitleArea
+{
+	width: 100%; 
+	background-color: #ab6935;
+	color: white;
+	margin: 0px;
+}
+
+.MspTabBarTitle
+{
+	font-size: 140%;
+	font-weight: bold;
+	padding: 6px 10px 6px 10px;	
+}
+
+.MspActivityTitle
+{
+	font-size: 105%;
+	font-weight: bold;
+	padding: 2px 6px 2px 6px;
+	color: White;
+	background-color: #ab6935;	
+}
+
+.liveMspActivityTitle
+{
+	font-size: 105%;
+	font-weight: bold;
+	padding: 2px 6px 2px 6px;
+	color: White;
+	background-color: #382d24;	
+}
+
+.MspSideLink
+{
+	color: White;
+	font-weight: bold;
+	text-align: left;
+	background-color: #382d24;
+	padding: 3px 4px 3px 4px;
+}
+
+.MspSideLinkSelected
+{
+	background-color: #f11e6b;
+}
+
+.MspSideLink A
+{
+	color: White;
+	text-decoration: none;
+}
+
+.MspSideLink A:LINK
+{
+	color: White;
+}
+
+.MspSideLink A:VISITED
+{
+	color: White;
+}
+
+.MspSideLink A:HOVER
+{
+	color: White;
+	text-decoration: underline;
+}
+
+.MspTitleLink A:HOVER
+{
+	text-decoration: underline;
+}
+
+.MspTitleLink A:LINK
+{
+	text-decoration: none;
+}
+
+.MspTitleLink A:ACTIVE
+{
+	text-decoration: none;
+}
+
+.MspTitleLink A:VISITED
+{
+	text-decoration: none;
+}
+
+.MspSideBarWindow
+{
+	font-family: Tahoma;
+	padding: 6px 10px 6px 10px;
+	background-color: #fbf5e9;	
+}
+
+.MspSideBarHeader
+{
+	font-weight: bold;
+	text-align: right;
+	font-family: Georgia;	
+}
+
+.MspResourcesCellLeft
+{
+	width: 275px;
+	vertical-align: top;
+}
+
+.MspResourcesCellRight
+{
+	vertical-align: top; 
+	border-left: solid 1px #e3ddd1; 
+	padding-left: 10px;
+}
+
+.MspPictureCell
+{
+	padding: 3px;
+	background-color: White;
+	background-image: url(../images/MspWeb/mspinner_picFrame.jpg);
+	display:table-cell;
+	display: inline-block;
+}
+
+.MspPictureFrame
+{
+	background-color: White; 
+	padding: 4px 4px 8px 4px;
+}
+
+.MspRecentPhoto
+{
+	border-top: solid 1px #888888;
+	border-left: solid 1px #888888;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+}
+
+.MspUserPictureFrame
+{
+	width: 73px;
+	background-image: url(../images/MspWeb/mspinner_picFrame.jpg);
+	background-repeat: no-repeat;
+	display: block;
+}
+
+.MspUserPicture
+{
+	/*
+	width: 67px;
+	height: 67px;
+	*/
+	position: relative;
+	top: 3px;
+	left: 3px;
+}
+
+.MspLoginStrip
+{
+	font-size: 75%;
+	width: 265px;
+	height: 19px;
+	text-align: right;
+	overflow: hidden;
+}
+
+.MspLoginStripFont
+{
+	font-family: Georgia;
+	padding: 3px;
+	background-color: White;
+	display: inline-block;
+}
+
+.MspUsernameStrip
+{
+	width: 190px;
+	height: 20px;
+	background-color: #382d24;
+	padding: 4px 5px 0px 8px;
+	color: White;
+	overflow: hidden;
+}
+
+.MspResourcesSideBar
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.MspControlPanelRegion
+{
+	padding-left: 20px;
+	padding-right: 26px;
+}
+
+.MspListTable
+{
+	border: solid 1px #bbbbbb; 
+}
+
+.MspListTableRow
+{
+	padding: 4px;
+	background-color: #EAE9E1;
+}
+
+.MspListTableRowAlternate
+{
+	padding: 4px;
+	background-color: white;
+}
+
+.MSPsidemenu:link
+{
+	text-decoration: none;
+}
+
+.MspFooterLink
+{
+	font-weight: bold;
+}
+
+.MspFooterLink A
+{
+	text-decoration: none;
+}
+
+.MspFooterLink A:LINK
+{
+}
+
+.MspFooterLink A:VISITED
+{
+}
+
+.MspFooterLink A:HOVER
+{
+	text-decoration: underline;
+}
+
+#MspCommon
+{
+	background-image: url(../images/MspWeb/RepeatingBackground.jpg);
+}
+
+/* Microsoft MSP Website */
+.ImageGradient
+{
+	height: 25px;
+	background-image: url(../images/MspWeb/Full_Width_Gradient.jpg);
+}
+
+/* Microsoft MSP Website */
+body, html
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma;
+	color: #423d38;
+	background-color: #dcad66;
+	background-image: url(../images/MspWeb/mspInner_pageBg.jpg);
+}
+
+/* Microsoft MSP Website */
+#CommonOuter
+{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+/* Microsoft MSP Website */
+#Common
+{
+	/* background-image: url(../images/MspWeb/RepeatingBackground.jpg); */
+}
+
+/* Microsoft MSP Website */
+legend
+{
+	color: #999999;
+	font-weight: bold;
+}
+
+/* Microsoft MSP Website */
+#CommonHeader
+{
+	width: 100%;
+}
+
+/* Microsoft MSP Website */
+#CommonFooter
+{
+	text-align:center;
+}
+
+/* Microsoft MSP Website */
+#CommonLeftColumn
+{
+	padding-bottom: 22px;
+}
+
+/* Microsoft MSP Website */
+#CommonRightColumn
+{
+	padding-bottom: 22px;
+}
+
+/* Microsoft MSP Website */
+A:LINK
+{
+	color: #423d38;
+}
+
+A:ACTIVE
+{
+	color: #423d38;
+}
+
+A:VISITED
+{
+	color: #423d38;
+}
+
+A:HOVER
+{
+
+}
+
+SELECT
+{
+    font-size: 90%;
+}
+
+TEXTAREA
+{
+    font-size: 90%;
+}
+
+INPUT
+{
+    font-size: 90%;
+}
+
+BUTTON
+{
+    font-size: 90%;
+}
+
+/*
+Common Styles
+*/
+
+.CommonJumpArea
+{
+	font-size: 90%;
+	padding: 4px;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-weight: bold;
+}
+
+.CommonFeedArea
+{
+	font-size: 90%;
+	padding: 4px;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-weight: bold;
+}
+
+.CommonPagingArea
+{
+	font-size: 90%;
+	padding: 4px;
+	margin-left: 3px;
+	margin-right: 3px;
+	font-weight: bold;
+}
+
+.CommonSortArea
+{
+	font-size: 90%;
+	padding: 4px;
+	margin-left: 3px;
+	margin-right: 3px;
+	font-weight: bold;
+	margin-right: 40px;
+}
+
+/* Microsoft MSP Website */
+.CommonBreadCrumbArea
+{
+	font-weight: bold;
+	font-size: 80%;
+	padding: 5px 5px 5px 0px;
+	color: #423d38;
+}
+
+/* Microsoft MSP Website */
+.CommonBreadCrumbArea A:LINK
+{
+	color: #423d38;
+}
+
+/* Microsoft MSP Website */
+.CommonBreadCrumbArea A:VISITED
+{
+	color: #423d38;
+}
+
+.CommonFilterArea
+{
+	font-size: 90%;
+	padding: 4px;
+	margin-left: 3px;
+	margin-right: 3px;
+	font-weight: bold;
+	margin-right: 40px;
+}
+
+.CommonPagingArea A:LINK
+{
+	
+	color: #423d38;
+}
+
+.CommonPagingArea A:VISITED
+{
+	
+	color: #423d38;
+}
+
+.CommonSearchResults
+{
+	font-size: 80%;
+	color: #000000;
+	font-weight: bold;
+	padding: 8px;
+}
+
+.CommonSearchResultsArea
+{
+	border-style: solid;
+	border-width: 0px;
+	border-top-width: 2px;
+	border-color: #cccccc;
+	margin-top: 16px;
+	padding-top: 4px;
+}
+
+/* 
+Tree Form Element
+*/
+
+.CommonTreeFormArea
+{
+	border-style: solid;
+	border-color: #999999;
+	border-width: 1px;
+	padding: 2px;
+	width: 350px;
+	height: 175px;
+	overflow: auto;
+	margin: 4px;
+	margin-left: 2px;
+}
+
+.CommonTreeFormTree
+{
+	padding: 0px;
+}
+
+.CommonTreeFormNode
+{
+	cursor: pointer;
+	font-size: 90%;
+}
+
+.CommonTreeFormNodeSelected
+{
+	padding: 1px;
+	font-weight: bold;
+	background-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	cursor: pointer;
+	font-size: 90%;
+}
+
+.CommonTreeFormNodeHover
+{
+	cursor: pointer;
+	font-size: 90%;
+}
+
+/* 
+Title Bar Styles
+*/
+
+/* Microsoft MSP Website */
+.CommonTitleBar
+{
+	height:125px;
+	overflow: hidden;
+}
+
+/* Microsoft MSP Website */
+.CommonTitleBarTitleArea
+{
+}
+
+/* Microsoft MSP Website */
+.CommonTitleBarSearchArea
+{
+	text-align: right;
+	color: #666666;
+	padding: 10px;
+	padding-right: 20px;
+	margin-top: 5px;
+}
+
+.CommonSearchButtonOuter
+{
+	background-image: url(../images/common/search-button.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	color: #cccccc;
+	font-size: 12px;
+	font-variant: small-caps;
+	text-align: left;
+	padding-left: 4px;
+	font-weight: bold;
+	color: #999999;
+	
+	margin-left: 4px;
+}
+
+.CommonSearchButton
+{
+	background-image: url(../images/common/search-button-right.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+	
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	color: #cccccc;
+	font-size: 12px;
+	font-variant: small-caps;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 9px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+	font-weight: bold;
+	color: #999999;
+}
+
+.CommonSearchButton:link, .CommonSearchButton:visited, .CommonSearchButton:active
+{
+	color: #999999;
+	text-decoration: none;
+}
+
+.CommonSearchButton:hover
+{
+	text-decoration: underline;
+}
+
+/* Microsoft MSP Website */
+.CommonTitleBarImage
+{
+	position:relative;
+}
+
+.CommonTitleBarTitle
+{
+		padding: 0px 0px 0px 4px;
+	padding-top: 0px;
+	font-size: 250%;
+	color: #555555;
+	margin: 0px;
+	margin-bottom: -5px;
+	font-weight: bolder;
+}
+
+.CommonTitleBarTitle A:LINK
+{
+	color: #333333;
+	text-decoration: none;
+}
+
+.CommonTitleBarTitle A:VISITED
+{
+	color: #333333;
+	text-decoration: none;
+}
+
+.CommonTitleBarTitle A:ACTIVE
+{
+	color: #333333;
+	text-decoration: none;
+}
+
+.CommonTitleBarDescription
+{
+	position: relative;
+	top: -4px;
+	padding: 0px 0px 0px 6px;
+	color: #999999;
+	margin: 0px;	
+	margin-bottom: -14px;
+}
+
+
+/*
+User Area
+*/
+
+/* Microsoft MSP Website */
+.CommonUserArea
+{
+	padding-top: 4px;
+	font-size: 80%;
+	font-weight: normal;
+}
+
+.CommonUserArea A:LINK, .CommonUserArea A:VISITED, .CommonUserArea A:ACTIVE, .CommonUserArea A:HOVER
+{
+	font-weight: bold;
+}
+
+
+/*
+Form Styles
+*/
+
+.CommonFormArea
+{
+}
+
+/* Microsoft MSP Website */
+.CommonFormTitle
+{
+	font-size: 140%;
+	font-weight: bold;
+	padding: 4px;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+/* Microsoft MSP Website */
+.CommonFormDescription
+{
+	padding: 2px;
+	padding-left: 0px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+/* Microsoft MSP Website */
+TD.CommonFormFieldName
+{
+	padding: 4px;
+	padding-right: 0px;
+	font-weight: bold;	
+}
+
+/* Microsoft MSP Website */
+DIV.CommonFormFieldName
+{
+	padding: 0px;
+	padding-top: 0px;
+	font-weight: bold;
+}
+
+/* Microsoft MSP Website */
+TD.CommonFormFieldDescription
+{
+	padding: 2px;
+	font-size: 90%;
+	font-weight: normal;
+}
+
+/* Microsoft MSP Website */
+DIV.CommonFormFieldDescription
+{
+	padding: 2px;
+	font-size: 90%;
+	font-weight: normal;
+}
+
+/* Microsoft MSP Website */
+TD.CommonFormField
+{
+	padding-left: 10px;
+}
+
+/* Microsoft MSP Website */
+DIV.CommonFormField
+{
+	padding: 20px;
+	font-size: 10pt;
+}
+
+/* Microsoft MSP Website */
+.CommonFormActionButtons
+{
+	padding: 2px;
+	text-align: right;
+}
+
+/*
+Join Form Styles
+*/
+
+/* Microsoft MSP Website */
+.JoinTitle
+{
+	width:650px;
+	text-align: left;
+	font-size: 140%;
+	font-weight: bold;
+	padding: 8px;
+	padding-left: 8px;
+	margin: 0px;
+	margin-top: 20px;
+}
+
+/* Microsoft MSP Website */
+.JoinArea
+{
+	width:100%;
+	font-size: 100%;
+	padding: 8px;
+	padding-bottom: 16px;
+	text-align: left;
+}
+
+
+/*
+Message Styles
+*/
+
+.CommonMessageArea
+{
+	width: 50%;
+	margin-top: 64px;
+	margin-bottom: 64px;
+	background-color: #ffffff;
+}
+
+/* Microsoft MSP Website */
+.CommonMessageTitle
+{
+	text-align: left;
+	font-size: 140%;
+	font-weight: bold;
+	color: #423d38;
+	padding: 2px;
+	padding-left: 8px;
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+}
+
+/* Microsoft MSP Website */
+.CommonMessageContent
+{
+	font-size: 100%;
+	padding: 8px;
+	padding-bottom: 16px;
+	text-align: left;
+	border-style: solid;
+	border-width: 1px;
+	border-top-width: 0px;
+	border-color: #cccccc;
+}
+
+.CommonInlineMessageArea
+{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	background-color: #ffffff;
+	background-position: left top;
+	background-repeat: repeat-x;
+}
+
+/* Microsoft MSP Website */
+.CommonInlineMessageTitle
+{
+	text-align: left;
+	font-size: 100%;
+	font-weight: bold;
+	background-color: #e3ddd1;
+	padding: 6px;
+	padding-left: 8px;
+	margin: 0px;
+	border-style: solid;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: #cccccc;
+}
+
+.CommonInlineMessageArea A:LINK, .CommonInlineMessageArea A:VISITED, .CommonInlineMessageArea A:ACTIVE, .CommonInlineMessageArea A:HOVER
+{
+	
+}
+
+/* Microsoft MSP Website */
+.CommonInlineMessageContent
+{
+	font-size: 80%;
+	padding: 8px;
+	text-align: left;
+}
+
+.CommonInlineTidbit
+{
+	background-image: url('/cs/themes/default/images/tidbit_arrow.gif');
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	padding: 4px;
+	margin: 1px;
+	background-repeat: no-repeat;
+	background-position: 1px 1px;
+	padding-left: 22px;
+	margin-left: 40px;
+}
+
+.CommonInlineTidbit, .CommonInlineTidbit A
+{
+	text-align: left;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+.CommonInlineTidbit A
+{
+	color: #449944;
+}
+ /* Microsoft MSP Website */
+.CommonMessageSuccess
+{
+	padding: 8px;
+	font-size: 100%;
+	font-weight: bold;
+	border: solid;
+	border-width: 1px;
+	border-color: #999999;
+	background-color: #ffffff;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.CommonLicenseMessageSuccess
+{
+	padding: 8px;
+	font-size: 100%;
+	font-weight: bold;
+	border: solid;
+	border-width: 1px;
+	border-color: #999999;
+	background-color: #cfe7c0;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.CommonSmallMessageSuccess
+{
+	padding: 2px;
+	font-size: 80%;
+	font-weight: bold;
+	color: #334433;
+}
+
+.CommonMessageError
+{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 4px;
+	font-size: 100%;
+	color: #443333;
+	font-weight: bold;
+	border: solid;
+	border-width: 1px;
+	border-color: #999999;
+	background-color: #EBD9D9;
+}
+
+.CommonLicenseMessageError
+{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 4px;
+	font-size: 100%;
+	color: #8e9fca;
+	font-weight: bold;
+	border: solid;
+	border-width: 1px;
+	border-color: #999999;
+	background-color: #ffffff;
+}
+
+.CommonSmallMessageError
+{
+	padding: 2px;
+	font-size: 80%;
+	font-weight: bold;
+	color: #990000;
+}
+
+/*
+Content
+*/
+
+.CommonTextBig
+{
+	margin: 1px;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.CommonInputSearch
+{
+	font-size: 150%;
+}
+
+.CommonInputBig
+{
+	width: 90%;
+	font-size: 130%;
+}
+
+
+/* Microsoft MSP Website */
+.CommonContentArea
+{
+	padding: 0px 0px 0px 0px;
+	border: none 0px;
+	text-align: left;
+}
+
+.CommonFreeTextContent
+{
+	line-height: 20px;
+	padding-left: 15px;
+}
+
+/* Microsoft MSP Website */
+.CommonTitle, .CommonProfileTitle
+{
+	color: #423d38;
+	font-size: 180%;
+	font-weight: bold;
+	padding: 15px 0px 15px 8px;
+	margin: 0px;
+}
+
+/* Microsoft MSP Website */
+.CommonTitle A:LINK, .CommonTitle A:ACTIVE, .CommonTitle A:VISITED, .CommonTitle A:HOVER
+{
+    color: #626f90;
+}
+
+/* Microsoft MSP Website */
+.CommonSubTitle
+{
+	color: #423d38;
+	font-size: 140%;
+	font-weight: bold;
+	margin: 0px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+/* Microsoft MSP Website */
+.CommonHeader
+{
+	color: #626f90;
+	font-size: 130%;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 8px;
+}
+
+/* Microsoft MSP Website */
+.CommonContent
+{
+	padding: 0px 5px 5px 5px;
+	font-size: 100%;
+}
+
+/* Microsoft MSP Website */
+.CommonGroupedContentArea
+{
+	border-style: solid;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: #e3ddd1;
+}
+
+/* Microsoft MSP Website */
+.CommonContentPadding
+{
+	padding: 20px;
+}
+
+.CommonFloatArea
+{
+	float: left;
+	width: 126px;
+	margin: 8px;
+	margin-left: 0px;
+	padding: 8px;
+	padding-top: 0px;
+}
+
+UL.CommonFloatList
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+UL.CommonFloatList LI
+{
+	margin-bottom: 8px;
+	clear: both;
+}
+
+.CommonNonFloatArea
+{
+	margin-left: 150px;
+}
+
+/* Microsoft MSP Website */
+.CommonSidebar
+{
+	padding: 0px;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+/* Microsoft MSP Website */
+.CommonSidebarContentItem
+{
+	margin-bottom: 5px;
+	display: list-item;
+	list-style-type: square;	
+	margin-left: 16px;
+}
+
+.CommonSidebarArea
+{
+	width: 192px;
+	margin: 22px 0px 0px 0px;
+	overflow: hidden;
+}
+
+/* Microsoft MSP Website */
+.CommonSidebarArea A:LINK
+{
+	color: #626f90;
+}
+
+/* Microsoft MSP Website */
+.CommonSidebarArea A:ACTIVE
+{
+	color: #626f90;
+}
+
+/* Microsoft MSP Website */
+.CommonSidebarArea A:VISITED
+{
+	color: #626f90;
+}
+
+/* Microsoft MSP Website */
+.CommonSidebarArea A:HOVER
+{
+	color: #626f90;
+}
+
+/* Microsoft MSP Website */
+.CommonSidebarContent A:LINK
+{
+	color: #626f90;
+}
+
+/* Microsoft MSP Website */
+.CommonSidebarContent A:ACTIVE
+{
+	color: #626f90;
+}
+
+/* Microsoft MSP Website */
+.CommonSidebarContent A:VISITED
+{
+	color: #626f90;
+}
+
+/* Microsoft MSP Website */
+.CommonSidebarContent A:HOVER
+{
+	color: #626f90;
+}
+
+
+/* Microsoft MSP Website */
+.CommonSidebarHeader
+{
+	text-align: left;
+	font-size: 100%;
+	background-color: #8e9fca;
+	color: #ffffff;
+	padding: 2px;
+	padding-left: 8px;
+	margin: 0px;
+	background-image: url(../images/common/sidebar-header.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+/* Microsoft MSP Website */
+.CommonSidebarContent
+{
+	font-size: 80%;
+	color: #626f90;
+	padding: 8px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #626f90;
+	background-color: #ffffff;
+	width: 174px;
+	overflow: hidden;
+}
+
+/* Microsoft MSP Website */
+.CommonSidebarFooter
+{
+	font-size: 80%;
+	color: #000000;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-style: solid;
+	border-width: 1px;
+	border-top-width: 0px;
+	border-color: #626f90;
+	background-color: #ffffff;
+	width: 174px;
+	overflow: hidden;
+}
+
+UL.CommonSidebarList
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+UL.CommonSidebarList LI
+{
+	margin-bottom: 5px;
+	list-style-type: square;
+	margin-left: 16px;
+	color: #382d24;
+	font-weight: bold;
+	font-size: 85%;
+}
+
+UL.CommonSidebarRssList
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+UL.CommonSidebarRssList LI
+{
+	margin-bottom: 5px;
+	padding-bottom: 1px;
+	margin-left: 16px;
+	list-style-image: url(../images/common/feed-icon-12x12.png);	
+	color: #698d73;
+}
+
+LI.CommonSidebarRssListItem
+{
+	margin-bottom: 5px;
+	padding-bottom: 1px;
+	margin-left: 16px;
+	list-style-image: url(../images/common/feed-icon-12x12.png);	
+	color: #698d73;
+}
+
+/* Microsoft MSP Website */
+.CommonDescription
+{
+	font-size: 90%;
+	padding: 0px 0px 8px 0px;
+	margin-top: -5px;
+	margin-bottom: 15px;
+}
+
+/* Microsoft MSP Website */
+.CommonSidebarImage
+{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding: 3px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #626f90;
+	background-color: #fafafa;
+	text-align: center;
+}
+UL.CommonSidebarImageList
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#welcome
+{
+	color: #000000;
+	font-size: 10px;
+	margin-right: 5px;
+	margin-top: -5px;
+	padding-bottom: 10px;
+}
+
+#welcome A, #welcome A:VISITED, #welcome A:ACTIVE, #welcome A:HOVER
+{
+	font-size: 10px;
+}
+
+
+/*
+Text Button
+*/
+
+/* Microsoft MSP Website */
+.CommonTextButton, #MspInsertedLink
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	margin: 1px;
+	padding: 4px;
+	color: white;
+	font-size: 80%;
+	font-weight: bold;
+	white-space: nowrap;
+	text-decoration: none;
+	background-color: #382d24;
+	border-style: none;
+	cursor: pointer;
+}
+
+/* Microsoft MSP Website */
+.CommonTextButton:LINK
+{
+	color: white;
+	text-decoration: none;
+}
+
+/* Microsoft MSP Website */
+.CommonTextButton:VISITED
+{
+	color: white;
+	text-decoration: none;
+}
+
+/* Microsoft MSP Website */
+.CommonTextButton:ACTIVE
+{
+	color: white;
+	text-decoration: none;
+}
+
+/* Microsoft MSP Website */
+.CommonTextButton:HOVER
+{
+	color: white;
+	text-decoration: underline;
+	background-color: #f11e6b;
+}
+
+/* Microsoft MSP Website */
+.CommonTextButtonBig
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	margin: 1px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+	border-top-color: #cccccc;
+	border-left-color: #cccccc;
+	background-color: #e3ddd1;
+	color: #8e9fca;
+	font-size: 120%;
+	white-space: nowrap;
+}
+
+/* Microsoft MSP Website */
+.CommonTextButtonBig:LINK
+{
+	text-decoration: none;
+	color: #8e9fca;
+	background-color: #e3ddd1;
+}
+
+/* Microsoft MSP Website */
+.CommonTextButtonBig:VISITED
+{
+	text-decoration: none;
+	color: #8e9fca;
+	background-color: #e3ddd1;
+}
+
+/* Microsoft MSP Website */
+.CommonTextButtonBig:ACTIVE
+{
+	text-decoration: none;
+	color: #8e9fca;
+}
+
+/* Microsoft MSP Website */
+.CommonTextButtonBig:HOVER
+{
+	text-decoration: underline;
+	color: #8e9fca;
+	background-color: #dddddd;
+}
+
+.CommonTextButtonHighlight
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	margin: 1px;
+	padding: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+	border-top-color: #cccccc;
+	border-left-color: #cccccc;
+	background-color: #bbbbbb;
+	color: #333333;
+	font-size: 80%;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.CommonTextButtonHighlight:LINK, .CommonTextButtonHighlight:VISITED, .CommonTextButtonHighlight:ACTIVE, .CommonTextButtonHighlight:HOVER
+{
+	text-decoration: none;
+	background-color: #bbbbbb;
+	color: #333333;
+}
+
+/* Microsoft Msp Website */
+.CommonImageTextButton
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	padding: 4px;
+	margin: 1px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #382d24;
+	background-color: #382d24;
+	color: white;
+	font-size: 90%;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: 1px 1px;
+	line-height: normal;
+	white-space: nowrap;
+}
+
+.CommonImageTextButton:LINK
+{
+	text-decoration: none;
+	color: white;
+	margin: 1px;
+}
+
+.CommonImageTextButton:VISITED
+{
+	text-decoration: none;
+	color: white;
+}
+
+.CommonImageTextButton:ACTIVE
+{
+	text-decoration: none;
+	color: white;
+}
+
+.CommonImageTextButton:HOVER
+{
+	text-decoration: underline;
+	color: white;
+	background-color: #f11e6b;
+	border-color: #f11e6b;
+}
+
+.CommonImageTextButtonBig
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	padding: 4px;
+	margin: 1px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+	border-top-color: #cccccc;
+	border-left-color: #cccccc;
+	background-color: #e3ddd1;
+	color: #423d38;
+	font-size: 130%;
+	background-repeat: no-repeat;
+	background-position: 4px 5px;
+	padding-left: 30px;
+	padding-right: 10px;
+	line-height: normal;
+	white-space: nowrap;
+}
+
+.CommonImageTextButtonBig:LINK
+{
+	text-decoration: none;
+	color: #423d38;
+	margin: 1px;
+}
+
+.CommonImageTextButtonBig:VISITED
+{
+	text-decoration: none;
+	color: #423d38;
+}
+
+.CommonImageTextButtonBig:ACTIVE
+{
+	text-decoration: none;
+	color: #423d38;
+}
+
+.CommonImageTextButtonBig:HOVER
+{
+	text-decoration: underline;
+	color: #423d38;
+	background-color: #dddddd;
+}
+
+/* Microsoft MSP Website */
+.CommonImageTextButtonHighlight
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	margin: 1px;
+	padding: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #f11e6b;
+	background-color: #f11e6b;
+	color: white;
+	font-size: 90%;
+	font-weight: bold;
+	line-height: normal;
+	white-space: nowrap;
+}
+
+.CommonImageTextButtonHighlight:LINK, .CommonImageTextButtonHighlight:VISITED, .CommonImageTextButtonHighlight:ACTIVE, .CommonImageTextButtonHighlight:HOVER
+{
+	text-decoration: none;
+	background-color: #f11e6b;
+	color: white;
+}
+
+.CommonButtonInnerContentDown
+{
+	background-image: url(../images/common/button-down-arrow.gif);
+	padding-right: 9px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.CommonButtonInnerContentRight
+{
+	background-image: url(../images/common/button-right-arrow.gif);
+	padding-right: 7px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.CommonBigButton
+{
+	font-size: 18px;
+}
+
+/*
+Options Styles
+*/
+
+.CommonOptionsListArea
+{
+	background-color: #f4f4f4;
+	padding: 4px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin: 0px;
+	margin-bottom: 6px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 0px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+
+.CommonOptionsListTitle
+{
+	font-size: 8pt;
+	font-weight: normal;
+	color: #666666;
+	margin: 0px;
+	margin-bottom: 4px;
+	padding: 0px;
+}
+
+.CommonOptionsListItem
+{
+	font-size: 8pt;
+}
+
+/*
+Advertisements
+*/
+
+.CommonStandardTopAdArea
+{
+	text-align: center;
+	padding: 4px;
+	margin: 0px;
+	margin-bottom: 4px;
+	border: solid;
+	border-width: 0px;
+	border-top-width: 1px;
+	border-color: #999999;
+}
+
+.CommonStandardTopAdArea IFRAME
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.CommonStandardBottomAdArea
+{
+	text-align: center;
+	padding: 4px;
+	border: solid;
+	border-width: 0px;
+	border-top-width: 1px;
+	border-color: #999999;
+	margin: 0px;
+	margin-top: 4px;
+}
+
+.CommonStandardBottomAdArea IFRAME
+{
+	border: solid;
+	border-width: 1px;
+	border-color: #999999;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+List 
+*/
+
+.CommonListArea
+{
+	padding-bottom: 10px;
+}
+
+/* Microsoft MSP Website */
+.CommonListTitle
+{
+	padding: 6px;
+	padding-left: 8px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	background-color: #ab6935;
+	color: #ffffff;
+	font-size: 90%;
+	font-weight: bold;
+	margin: 0px;
+}
+
+/* Microsoft MSP Website */
+.CommonListTitle A, .CommonListTitle A:VISITED, .CommonListTitle A:ACTIVE, .CommonListTitle A:HOVER
+{
+	color: #ffffff;
+}
+
+/* Microsoft MSP Website */
+.CommonListHeaderLeftMost
+{
+	text-align: left;
+	padding: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #e3ddd1;
+	background-color: #e3ddd1;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+
+/* Microsoft MSP Website */
+.CommonListHeader
+{
+	text-align: left;
+	padding: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-left-width: 0px;
+	border-color: #e3ddd1;
+	background-color: #e3ddd1;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+/* Microsoft MSP Website */
+.CommonListCellLeftMost
+{
+	padding: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-top-width: 0px;
+	border-color: #e3ddd1;
+	font-size: 80%;
+}
+
+/* Microsoft MSP Website */
+.CommonListCell
+{
+	padding: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-color: #e3ddd1;
+	font-size: 80%;
+	text-align: left;
+}
+
+
+/* 
+Simple Tab Strip Styles 
+*/
+
+/* Microsoft MSP Website Customization */
+.CommonSimpleTabStripCustom, .CommonSimpleTabStripSelectedTab, .CommonSimpleTabStripTab, .CommonSimpleTabStripTabHover
+{
+	text-align: center;
+	width: 110px;
+}
+
+/* Microsoft MSP Website */
+.CommonSimpleTabStripTab
+{
+	color: #334b7c; 
+	font-size:11px; 
+	cursor:pointer;
+	background-image: url(../images/MspWeb/top_group_bg_bar.gif);
+	background-position: right top;
+	background-repeat: no-repeat;
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 30px;
+}
+
+/* Microsoft MSP Website */
+.CommonSimpleTabStripTab A:LINK, .CommonSimpleTabStripTab A:VISITED, .CommonSimpleTabStripTab A:ACTIVE
+{
+	color: #423d38;
+	text-decoration: none;
+}
+
+/* Microsoft MSP Website */
+.CommonSimpleTabStripTab A:HOVER
+{
+	color: #334b7c;
+	text-decoration: underline;
+}
+
+/* Microsoft MSP Website */
+.CommonSimpleTabStripTabHover
+{
+	font-size:11px; 
+	color: #FFFFFF;
+	cursor:default;
+	background-color: #7797d0;
+	border-color: #ffffff;
+	cursor:pointer;
+	background-image: url(../images/common/top_item_selected_bg.gif);
+	background-repeat:repeat-x;
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 30px;
+}
+
+/* Microsoft MSP Website */
+.CommonSimpleTabStripTabHover A:LINK, .CommonSimpleTabStripTabHover A:VISITED, .CommonSimpleTabStripTabHover A:ACTIVE
+{
+	color: white;
+	text-decoration: none;
+}
+
+/* Microsoft MSP Website */
+.CommonSimpleTabStripTabHover A:HOVER
+{
+	color: white;
+	text-decoration: underline;
+}
+
+/* Microsoft MSP Website */
+.CommonSimpleTabStripSelectedTab
+{
+	font-size:11px; 
+	font-weight: bold;
+	color: #FFFFFF;
+	cursor:default;
+	background-color: #7797d0;
+	border-color: #ffffff;
+	cursor:pointer;
+	background-image: url(../images/common/top_item_selected_bg.gif);
+	background-repeat:repeat-x;
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 30px;
+}
+
+/* Microsoft MSP Website */
+.CommonSimpleTabStripSelectedTab A:LINK, .CommonSimpleTabStripSelectedTab A:VISITED, .CommonSimpleTabStripSelectedTab A:ACTIVE
+{
+	color: white;
+	text-decoration: none;
+}
+
+/* Microsoft MSP Website */
+.CommonSimpleTabStripSelectedTab A:HOVER
+{
+	color: White;
+	text-decoration: underline;
+}
+
+/* 
+Tab Strip Styles 
+*/
+
+/* Microsoft MSP Website */
+.CommonTopLevelTab, .CommonTopLevelTabHover, .CommonSelectedTopLevelTab
+{
+	text-align: center;
+	width: 103px;
+}
+
+/* Microsoft MSP Website */
+.CommonTabBar
+{
+	padding-left: 24px;
+	margin: 0px;
+	margin-top: -3px;
+  	background-color:#f6f7fa; 
+  	height: 30px;
+  	overflow: hidden;
+	background-image: url(../images/common/top_group_bg.gif);
+	background-repeat:repeat-x;
+	position: relative;
+	left: 28px;
+	width: 944px;
+}
+
+.CommonTabBarInner
+{
+	border-style: solid;
+	border-width: 0px;
+	border-left-width: 1px;
+	border-color: #999999;
+}
+
+.CommonTopGroup ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.CommonTopGroup li
+{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+/* Microsoft MSP Website */
+.CommonTopLevelTab, .CommonTopGroup li
+{
+    color : #000000;
+	font-size:11px; 
+	cursor:pointer;
+	padding-left: 16px;
+	padding-right: 16px;
+	background-image: url(../images/MspWeb/top_group_bg_bar.gif);
+	background-repeat: no-repeat;
+	background-position: 100% inherit;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	white-space: nowrap;
+}
+
+/* Microsoft MSP Website */
+.CommonTopLevelTab A:LINK, .CommonTopLevelTab A:VISITED, .CommonTopLevelTab A:ACTIVE
+{
+	color: #423d38;
+	display:block;
+	text-decoration: none;
+}
+
+.CommonTopLevelTab A:HOVER
+{
+	color: #000000;
+	display: block;
+	text-decoration: none;
+}
+
+/* Microsoft MSP Website */
+
+.CommonTopLevelTabHover 
+{
+	font-size:11px; 
+	color: #000000;
+	cursor:default;
+	cursor:pointer;
+	background-image: url(../images/common/top_item_selected_bg.gif);
+	background-repeat:repeat-x;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-style: solid;
+	border-width: 0px;
+	border-right-width: 1px;
+	border-color: #999999;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	white-space: nowrap;
+}
+
+/* Microsoft MSP Website */
+.CommonTopLevelTabHover A:LINK, .CommonTopLevelTabHover A:VISITED, .CommonTopLevelTabHover A:ACTIVE
+{
+	color: #423d38;
+	display:block;
+	text-decoration: none;
+}
+
+/* Microsoft MSP Website */
+.CommonTopLevelTabHover A:HOVER
+{
+	color: #ffffff;
+	display: block;
+	text-decoration: underline;
+}
+
+/* Microsoft MSP Website */
+.CommonSelectedTopLevelTab
+{
+	font-size:11px; 
+	font-weight: bold;
+	color: #000000;
+	cursor:default;
+	cursor:pointer;
+	background-image: url(../images/common/top_item_selected_bg.gif);
+	background-repeat:repeat-x;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-style: solid;
+	border-width: 0px;
+	border-right-width: 1px;
+	border-color: #999999;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	white-space: nowrap;
+}
+
+/* Microsoft MSP Website */
+.CommonSelectedTopLevelTab A:LINK, .CommonSelectedTopLevelTab A:VISITED, .CommonSelectedTopLevelTab A:ACTIVE
+{
+	color: #423d38;
+	display:block;
+	text-decoration: none;
+}
+
+.CommonSelectedTopLevelTab A:HOVER
+{
+	color: #423d38;
+	display:block;
+	text-decoration: underline;
+}
+
+/*
+Search Results
+*/
+
+.CommonSearchResultArea
+{
+	border-style: solid;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: #e3ddd1;
+	margin: 8px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+}
+
+.CommonSearchResult
+{
+	color: #000000;
+	font-size: 100%;
+	line-height: 20px;
+}
+
+.CommonSearchResultName
+{
+	color: #738AC4;
+	font-size: 150%;
+	font-weight: normal;
+	padding: 4px;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.CommonSearchResultDetails
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #999999;
+	font-size: 80%;
+}
+
+.CommonSearchStatistics
+{
+	font-size: 80%;
+	margin-top: 8px;
+	margin-bottom: 16px;
+}
+
+UL.CommonSearchResultList
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+/*
+Validation Styles
+*/
+
+.CommonValidationWarning
+{
+	font-size: 100%;
+	color: #ff0000;
+	font-weight: bold;
+	padding: 2px;
+}
+
+/*
+Popup Area
+*/
+
+.CommonPopupArea
+{
+	padding: 8px;
+	background-color: #e3ddd1;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+}
+
+/***** CA ************/
+
+.CATopGroup
+{
+  z-index:99;
+  position:relative;
+}
+
+.CADefaultTab 
+{
+  color:black; 
+  background-image: url(../../../utility/caimages/tabs/tab_bg.gif);
+  font-size:11px; 
+  cursor:default;
+}
+
+.CADefaultTabHover 
+{
+  color:black; 
+  background-image: url(../../../utility/caimages/tabs/hover_tab_bg.gif);
+  font-size:11px; 
+  cursor:default;
+}
+
+.CASelectedTab 
+{
+  color:black; 
+  background-image: url(../../../utility/caimages/tabs/selected_tab_bg.gif);
+  font-size:11px; 
+  cursor:default;
+}
+
+.CADisabledTab 
+{
+  color:#AAAAAA; 
+  background-image: url(../../../utility/caimages/tabs/tab_bg.gif);
+  font-size:px; 
+  font-weight: bold;
+  cursor:default;
+}
+
+.CAMultiPage
+{
+  background-color:White;
+  border: 1px solid #919B9C;
+  width:100%;
+  position:relative;
+  padding:10px;
+  top:-3px;
+  left:1px;
+  z-index:98;
+}
+
+.CAMultiPageModal
+{
+  background-color:White;
+  border: 1px solid #919B9C;
+  height:350px;
+  position:relative;
+  padding:20px;
+  top:-3px;
+  left:1px;
+  z-index:98;
+}
+.PageViewModalPanel
+{
+	height:290px;
+	overflow-y:scroll;
+	padding-right:2px;
+}
+
+.CAPageContent
+{
+}
+
+/*
+ContentParts
+*/
+
+.CommonContentPartBorderOff
+{
+	padding: 1px;
+}
+
+.CommonContentPartBorderOn
+{
+	border-style: dashed;
+	border-width: 1px;
+	border-color: #999999;
+	background-color: #efefef;
+}
+
+.CommonInlineEditOn
+{
+	background-color: #efefef;
+}
+
+.CommonInlineEditOff
+{
+	padding: 0px;
+}
+
+/*
+Copyright
+*/
+.Copyright
+{
+	margin-top: 10px;
+	margin-left: 13px;
+	margin-right: 13px;
+	font-size: 11px;
+	text-align: right;
+}
+
+/*
+Context Menu Styles
+*/
+
+.CommonContextMenuGroup
+{
+	background-color:#ffffff;
+	border:solid 1px gray; 
+}
+
+/* Microsoft MSP Website */
+.CommonContextMenuItem
+{
+	background-color: #fbf5e9; 
+	font-size:90%; 
+	border:solid 1px white; 
+	cursor:pointer;
+	padding: 3px;
+}
+
+/* Microsoft MSP Website */
+.CommonContextMenuItemHover
+{
+	background-color: #f11e6b; 
+	color: #ffffff; 
+	font-size:90%; 
+	border:solid 1px white; 
+	cursor:pointer;
+	padding: 3px;
+}
+
+/* Microsoft MSP Website */
+.CommonContextMenuItemExpanded
+{
+	background-color:silver; 
+	color:black; 
+	font-size:90%; 
+	border:solid 1px white; 
+	cursor:pointer;	
+	padding: 3px;
+}
+
+.CommonContextMenuSeperatorItem
+{
+	background-color: white; 
+	height: 1px;
+	border-style: solid;
+	border-color: white;
+	border-width: 4px;
+	cursor:pointer;
+}
+
+/* Modal Styles */
+
+.CommonModalMask
+{
+	opacity: .4;
+	filter: alpha(opacity=40);
+	background-color: #333333;
+}
+
+.CommonModal
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #888888;
+	border-right-width: 3px;
+	border-right-color: #888888;
+	border-bottom-width: 3px;
+	border-bottom-color: #888888;
+	background-color: #e3ddd1;
+}
+
+.CommonModalTitle
+{
+	height: 18px;
+	font-size: 16px;
+	padding: 5px;
+	padding-bottom: 7px;
+	border-style: solid;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: #cccccc;
+	background-color: #e2eecd;
+	color: #698d73;
+	font-weight: bold;
+	cursor: move;
+	overflow: hidden;
+}
+
+.CommonModalClose
+{
+	width: 33px;
+	height: 12px;
+	background-image: url(../images/common/close.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+	float: right;
+}
+
+.CommonModalContent
+{
+	background-color: #ffffff;
+}
+
+.CommonModalFooter
+{
+	border-style: solid;
+	border-width: 0px;
+	border-top-width: 1px;
+	border-color: #cccccc;
+	background-color: #e3ddd1;
+	padding: 2px;
+}
+
+.CommonModalResize
+{
+	width: 14px;
+	height: 14px;
+	background-image: url(../images/common/resize.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	float: right;
+	cursor: se-resize;
+}
+
+/*
+Rating Styles
+*/
+
+.CommonRateControlReadOnly
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #999999;
+	border-width: 1px;
+	padding: 1px;
+	white-space: nowrap;
+}
+
+.CommonRateControl
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	background-color: #e3ddd1;
+	border-style: solid;
+	border-color: #999999;
+	border-width: 1px;
+	cursor: pointer;
+	padding: 1px;
+	white-space: nowrap;
+}
+
+.CommonRateControlActive
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	background-color: #ffcc66;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cc9933;
+	cursor: pointer;
+	padding: 1px;
+	white-space: nowrap;
+}
+
+/*
+Content Selector Styles 
+*/
+
+.CommonContentSelectorTreeArea
+{
+	background-color: #ffffff;
+	height: 330px;
+	width: 215px;
+	margin: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+	overflow: auto;
+}
+
+.CommonContentSelectorItemsArea
+{
+	margin: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+	height: 250px;
+	overflow: auto;
+	padding: 4px;
+}
+
+.CommonContentSelectorOptionsArea
+{
+	margin: 5px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+	height: 60px;
+	overflow: auto;
+	padding: 4px;
+}
+
+.CommonContentSelectorTree
+{
+	padding: 0px;
+	height: 330px;
+	width: 215px;
+	overflow: visible;
+}
+
+.CommonContentSelectorTreeNode
+{
+	cursor: pointer;
+}
+
+.CommonContentSelectorTreeNodeSelected
+{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.CommonContentSelectorTreeNodeHover
+{
+	cursor: pointer;
+}
+
+.CommonContentSelectorItem
+{
+	font-size: 90%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	cursor: pointer;
+	padding: 3px;
+	width: 79px;
+	height: 79px;
+	overflow: hidden;
+	margin: 6px;
+	margin-bottom: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.CommonContentSelectorItemSelected
+{
+	font-size: 90%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #999999;
+	cursor: pointer;
+	padding: 1px;
+	width: 79px;
+	height: 79px;
+	overflow: hidden;
+	margin: 6px;
+	margin-bottom: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.CommonContentSelectorItem img, .CommonContentSelectorItemSelected img
+{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.CommonContentSelectorItemName
+{
+	font-size: 90%;
+	font-weight: normal;
+	text-align: center;
+	cursor: pointer;
+	padding: 2px;
+	width: 83px;
+	height: 12px;
+	overflow: hidden;
+	margin: 6px;
+	margin-top: 1px;
+	margin-bottom: 16px;
+}
+
+.CommonContentSelectorItemNameSelected
+{
+	font-size: 90%;
+	font-weight: normal;
+	text-align: center;
+	background-color: #999999;
+	cursor: pointer;
+	padding: 2px;
+	width: 83px;
+	height: 12px;
+	overflow: hidden;
+	margin: 6px;
+	margin-top: 1px;
+	margin-bottom: 16px;
+}
+
+.CommonContentSelectorButtonArea
+{
+	text-align: right;
+	margin: 5px;
+	margin-top: 0px;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+/*
+ThreePanelResizeableControl Styles
+*/
+
+.CommonResizeArea
+{
+	width: 8px;
+	background-color: #7fa2bd /*#e3ddd1*/;
+	border-style: solid;
+	border-width: 0px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-color: #333333;
+	position: relative;
+	cursor: move;
+	cursor: col-resize;
+}
+
+.CommonCollapseButton
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	background-color: #cccccc;
+	color: #000000;
+	
+	font-size: 10px;
+	font-weight: bold;
+	vertical-align: middle;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666666;
+}
+
+.CommonCollapseButton:LINK, .CommonCollapseButton:VISITED, .CommonCollapseButton:ACTIVE
+{
+	color: #000000;
+	
+}
+
+.CommonCollapseButton:HOVER
+{
+	background-color: #e3ddd1;
+	color: #000000;
+	
+}
+
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+{
+	margin:0in;margin-bottom:.0001pt;
+}
+
+/* Comment Form */
+
+#CommonCommentForm, #CommonContactForm {
+
+	padding: 0;
+
+	font-size: 0.95em;}
+
+#CommonCommentForm h2, #CommonContactForm h2
+{
+	margin-bottom:0;
+}
+
+#CommonCommentForm h3, #CommonContactForm h3{	
+font-size: 1.3em;
+	margin: 0px 10px 0px 0px;
+	padding: 10px 0px 5px;
+	font-weight: 600;
+	letter-spacing: 0px;}
+
+#CommonCommentForm p, #CommonContactForm p{
+	padding: 0em;
+	font-size: 0.95em;
+}
+
+#CommonCommentForm dl, #CommonContactForm dl {
+	margin: 0;
+	padding: 0;
+}
+
+#CommonCommentForm dt, #CommonContactForm dt {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 1.0em;
+	margin: 0px;}
+	
+#CommonCommentForm dd, #CommonContactForm dd {
+	color: #777777;
+	margin-left:0;
+}
+
+#CommonCommentForm dt em, #CommonContactForm dt em {
+	font-size: 0.95em;
+}
+ 
+#CommonCommentForm .smallbox, #CommonContactForm .smallbox {
+	width: 350px;
+	padding: 2px;
+	border-top: 1px solid #7F8D3E;
+	border-right: 1px solid #E2E3D1;
+	border-bottom: 1px solid #E2E3D1;
+	border-left: 1px solid #E2E3D1;
+}
+
+#CommonCommentForm textarea, #CommonContactForm textarea {
+	width: 500px;
+	height: 150px;
+	padding: 2px;
+	border-top: 1px solid #7F8D3E;
+	border-right: 1px solid #E2E3D1;
+	border-bottom: 1px solid #E2E3D1;
+	border-left: 1px solid #E2E3D1;
+	font-size: 1em;
+	}
+
+/* Comments */
+
+#comments{
+	margin: 0px;
+	padding: 0;
+}
+
+#comments dl
+{
+    margin:0;
+    padding:0;
+
+}
+	
+#comments h3{	
+font-size: 1.3em;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 5px;
+	font-weight: 600;
+	letter-spacing: 0px;
+}
+
+#comments dt{
+	font-size: 1.1em;
+	letter-spacing: 0px;
+	font-weight: 600;
+    margin-left:0;
+	    padding-left:0;
+
+}
+#comments dd{
+	padding: 0.5em 1em;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 1em;
+	margin-left: 0px;
+	padding-left:0;
+	font-size: 0.9em;
+}
+
+#comments dd span{
+	font-weight: 600;
+	padding-top: 0.5em;
+	font-size: 0.9em;
+	color: #777777;
+}
+.comment h4{
+	font-size: 1.1em;
+	margin: 0px;
+	padding: 0px;
+	font-weight: 600;
+}
+
+/* Help Icon */
+.helpicon
+{
+	border-style:none;
+	line-height: normal;
+}
+
+.helpicon img
+{
+	height: 20px;
+	width: 16px;
+	vertical-align: middle;
+}
+
+a.helpicon
+{
+	border-style:none;
+	height: 20px;
+	background-image: url(../images/common/help_out_lt.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+a.helpicon:hover, a.helpicon:active 
+{
+	background-image:url(../images/common/help_hover.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	cursor:help;
+}
+
+/* BEGIN ComponentArt Date Picker & Popup Calendar */
+.calendar_button { border:none; cursor:pointer; }
+
+.picker
+{
+  background-color: #FFFFFF;
+  border: 1px gray solid;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.calendar td { font-size:11px; }
+
+.title { font-weight:bold; background-color:#D7D7E5; }
+
+.day
+{
+	width:25px;
+	cursor:pointer;
+	text-align:center;
+	border-width:1px;
+	border-color:#F6F6F6;
+	border-style:solid;
+}
+
+.dayhover
+{
+	width:25px;
+	cursor:pointer;
+	text-align:center;
+	text-decoration:underline;
+	border-width:1px;
+	border-color:#F6F6F6;
+	border-style:solid;
+}
+
+.dayheader
+{
+	width:25px;
+	text-align:center;
+	border-width:1px;
+	border-color:white;
+	border-style:solid;
+	font-weight:bold;
+	background-color:#FFFFFF;
+}
+
+.othermonthday { color:#999999; }
+
+.outofrangeday { visibility:hidden; }
+
+.selectedday
+{
+	width:25px;
+	background-color:#FBE694;
+	color:#000000;
+	border-width:1px;
+	border-color:#BB5503 !important;
+	border-style:solid;
+	font-weight:bold;
+}
+
+.calendar
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:Black;
+	border-collapse:collapse;
+	background-color:#FFFFFF;
+	cursor:default;
+}
+
+.month
+{
+	background-color:#F6F6F6;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	margin-top:0px;
+}
+
+.nextprev
+{
+	cursor:pointer;
+	height:25px;
+	vertical-align:center;
+	padding:0px 5px 0px 5px;
+}
+
+.selector
+{
+	width:14px;
+	cursor:pointer;
+	text-align:left;
+	vertical-align:center;
+	background-color:#FFFFFF;
+}
+/* END ComponentArt Date Picker & Popup Calendar */
+
+/* Poll Styles */
+
+.CommonPollMoveUpButton
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	margin: 1px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+	border-top-color: #cccccc;
+	border-left-color: #cccccc;
+	background-color: #e3ddd1;
+	color: #333333;
+	font-size: 80%;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 20px;
+	height: 20px;
+	line-height: normal;
+	background-image: url(../images/common/up.gif);
+}
+
+.CommonPollMoveUpButton:LINK, .CommonPollMoveUpButton:VISTED, .CommonPollMoveUpButton:ACTIVE
+{
+	text-decoration: none;
+	color: #423d38;
+}
+
+.CommonPollMoveUpButton:HOVER
+{
+	text-decoration: none;
+	color: #423d38;
+	background-color: #dddddd;
+}
+
+.CommonPollMoveDownButton
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	margin: 1px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+	border-top-color: #cccccc;
+	border-left-color: #cccccc;
+	background-color: #e3ddd1;
+	color: #333333;
+	font-size: 80%;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 20px;
+	height: 20px;
+	line-height: normal;
+	background-image: url(../images/common/down.gif);
+}
+
+.CommonPollMoveDownButton:LINK, .CommonPollMoveDownButton:VISTED, .CommonPollMoveDownButton:ACTIVE
+{
+	text-decoration: none;
+	color: #333333;
+}
+
+.CommonPollMoveDownButton:HOVER
+{
+	text-decoration: none;
+	color: #333333;
+	background-color: #dddddd;
+}
+
+.CommonPollDeleteButton
+{
+	display: inline-table;
+	display: -moz-inline-box;
+	display: inline-block;
+	margin: 1px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+	border-top-color: #cccccc;
+	border-left-color: #cccccc;
+	background-color: #e3ddd1;
+	color: #333333;
+	font-size: 80%;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 20px;
+	height: 20px;
+	line-height: normal;
+	background-image: url(../images/common/delete.gif);
+}
+
+.CommonPollDeleteButton:LINK, .CommonPollDeleteButton:VISTED, .CommonPollDeleteButton:ACTIVE
+{
+	text-decoration: none;
+	color: #333333;
+}
+
+.CommonPollDeleteButton:HOVER
+{
+	text-decoration: none;
+	color: #333333;
+	background-color: #dddddd;
+}
+
+ol.CommonPollAnswerList
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+ol.CommonPollAnswerList li
+{
+	margin-left: 24px;
+}
+
+/* rendered poll styles */
+
+.CommonPollArea
+{
+	width: 375px;
+	background-color: #f4f4f4;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #bbbbbb;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.CommonPollQuestion
+{
+	background-color: #e2eecd;
+	border-style: solid;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: #bbbbbb;
+	padding: 4px;
+	color: #698d73;
+	margin: 0px;
+	font-size: 105%;
+}
+
+.CommonPollContent
+{
+	padding: 4px;
+}
+
+.CommonPollDescription
+{
+}
+
+.CommonPollSwitchedContent
+{
+	width: 275px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+ul.CommonPollAnswerList
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.CommonPollAnswerList li
+{
+	padding: 0px;
+	margin: 6px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.CommonPollAnswer
+{
+	padding: 2px;
+}
+
+.CommonPollUserVote
+{
+	color: #777777;
+}
+
+.CommonPollFooter
+{
+	padding: 2px;
+	background-color: #cccccc;
+	border-style: solid;
+	border-width: 0px;
+	border-top-width: 1px;
+	border-color: #999999;
+	font-size: 80%;
+}
+
+ul.CommonPollFooterList
+{
+	list-style-type: none;
+	margin: 0px;
+	text-align: center;
+}
+
+ul.CommonPollFooterList li
+{
+	display: inline;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+/* End Poll Styles */
+
+/* Tag Styles */
+
+.CommonTagCloud
+{
+	background-color: #e3ddd1;
+	padding: 8px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	margin: 0px;
+	margin-bottom: 16px;
+	margin-top: 16px;
+	line-height: 250%;
+	list-style-type: none;
+}
+
+.CommonSidebarTagCloud
+{
+	line-height: 225%;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.CommonTag1, .CommonTag2, .CommonTag3, .CommonTag3, .CommonTag4, .CommonTag5, .CommonTag6
+{
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+.CommonTag1 a:link, .CommonTag1 a:visited, .CommonTag1 a:active
+{
+	margin-right: 6px;
+	text-decoration: none;
+	font-size: 225%;
+	font-weight: 900;
+}
+
+.CommonTag2 a:link, .CommonTag2 a:visited, .CommonTag2 a:active
+{
+	margin-right: 6px;
+	text-decoration: none;
+	font-size: 175%;
+	font-weight: 800;
+}
+
+.CommonTag3 a:link, .CommonTag3 a:visited, .CommonTag3 a:active
+{
+	margin-right: 6px;
+	text-decoration: none;
+	font-size: 150%;
+	font-weight: 600;
+}
+
+.CommonTag4 a:link, .CommonTag4 a:visited, .CommonTag4 a:active
+{
+	margin-right: 6px;
+	text-decoration: none;
+	font-size: 120%;
+	font-weight: 500;
+}
+
+.CommonTag5 a:link, .CommonTag5 a:visited, .CommonTag5 a:active
+{
+	margin-right: 6px;
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: 300;
+}
+
+/* Microsoft MSP Website */
+.CommonTag6 a:link, .CommonTag6 a:visited, .CommonTag6 a:active
+{
+	margin-right: 6px;
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: 200;
+}
+
+.CommonTag1 a:hover, .CommonTag2 a:hover, .CommonTag3 a:hover, .CommonTag4 a:hover, .CommonTag5 a:hover, .CommonTag6 a:hover
+{
+	background-color: #f11e6b;
+	color: White;
+	text-decoration: none;
+}
+
+/* End Tag Styles */
+
+.CommonSearchArea
+{
+	margin-bottom: 8px;
+	margin-top: 16px;
+	padding: 6px;
+	background-color: #f3f3f3;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+}
+
+.CommonSearchArea table
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+TabPane Styles
+*/
+
+.CommonPane
+{
+	padding: 0px;
+	font-size: 10pt;
+	background-color: #fbf5e9;
+	border: solid 1px #fbf5e9;
+}
+
+/* Microsoft MSP Website */
+.CommonPaneTabSet
+{
+	color: White;
+	font-size: 11px;
+	padding: 0px;
+	padding-bottom: 0px;
+	background-color: White;
+	white-space: nowrap;
+	border-bottom: solid 1px #fbf5e9;
+}
+
+/* Microsoft MSP Website */
+.CommonPaneTab
+{
+	padding-right: 1px;
+}
+
+/* Microsoft MSP Website */
+.CommonPaneTab1
+{
+	padding-left: 1px;
+}
+
+/* Microsoft MSP Website */
+.CommonPaneTab2
+{
+	padding: 10px 10px 10px 10px;
+	height: 13px;
+	cursor: pointer;
+	white-space: nowrap;
+	background-color: #372d24;
+	text-align: center;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+/* Microsoft MSP Website */
+.CommonPaneTabSelected
+{
+	padding-right: 1px;
+}
+
+/* Microsoft MSP Website */
+.CommonPaneTabSelected1
+{
+	padding-left: 1px;
+}
+
+/* Microsoft MSP Website */
+.CommonPaneTabSelected2
+{
+	padding: 10px 10px 10px 10px;
+	height: 13px;
+	cursor: pointer;
+	white-space: nowrap;
+	background-color: #ab6935;
+	text-align: center;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+/* Microsoft MSP Website */
+.CommonPaneTabHover
+{
+	padding-right: 1px;
+}
+
+/* Microsoft MSP Website */
+.CommonPaneTabHover1
+{
+	padding-left: 1px;
+}
+
+/* Microsoft MSP Website */
+.CommonPaneTabHover2
+{
+	padding: 10px 10px 10px 10px;
+	height: 13px;
+	cursor: pointer;
+	white-space: nowrap;
+	background-color: #ab6935;
+	text-align: center;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+/* Inline tag editor */
+.CommonInlineTagEditor
+{
+	padding: 4px;
+	border: solid 1px #999999;
+	background-color: #f3f3f3;
+}
+
+/* Start MSP LiveAtEdu Activities Area */
+
+#liveBottomShade { behavior: url(iepngfix.htc) }
+
+#liveActivityContent
+{
+	background: #fbf5e9 url(../images/MspWeb/liveActBack.jpg) no-repeat;
+	min-height: 707px;
+}
+
+#livePadding
+{
+	padding: 45px 29px 0px 30px;	
+}
+
+#liveMainNav
+{
+	color: #3b82c5;
+	padding-bottom: 60px;
+	font-weight: bold;
+}
+
+#liveMainNav a:link {color: #fff; text-decoration: none; font-weight: bold;}
+#liveMainNav a:visited {color: #fff; text-decoration: none;}
+#liveMainNav a:hover {color: #3b82c5; text-decoration: underline;}
+#liveMainNav a:active {color: #fff; text-decoration: none;}
+
+.liveNavSpacer
+{
+	padding: 0px 15px 0px 15px;	
+}
+
+#liveSubNav
+{
+	color: #3b82c5;
+	font-weight: bold;
+	padding-top: 35px;
+	text-align: right;
+}
+
+#liveSubNav a:link {color: #382d24; text-decoration: none; font-weight: bold;}
+#liveSubNav a:visited {color: #382d24; text-decoration: none;}
+#liveSubNav a:hover {color: #3b82c5; text-decoration: underline;}
+#liveSubNav a:active {color: #382d24; text-decoration: none;}
+
+#liveSubNavPos
+{
+	padding-right: 5px;	
+} 
+.selectedLink
+{
+	color: #3b82c5;	
+}
+
+.liveNavBar
+{
+  cursor: default;
+  text-align: left;
+}
+
+.liveTopItem
+{
+  background-color: #e3ddd1;
+  font-size: 90%;
+  font-weight: bold;
+  height:25px;
+  cursor:pointer;
+}
+
+.liveMessage
+{
+  padding: 10px;
+  background-color: #fbf5e9;
+  width: 10%;
+}
+
+.liveMessageSelected
+{
+  background-color:#b2b4bF;
+}
+
+#liveTitle
+{
+	color: #382d24;	
+	font-weight: bold;
+	font-size: 25pt;
+	padding-bottom: 5px;
+}
+
+#liveContentText
+{
+	text-align: left;
+	color: #fff;	
+}
+
+#liveDefaultHeader
+{
+	padding: 30px 0px 0px 0px;
+	color: #3b82c5;
+}
+
+.clickHere
+{
+	font-size: 9pt;
+	color: #382d24;
+	font-weight: bold;	
+}
+
+.liveBoxMid
+{
+	background: #382d24;
+	width: 903px;
+}
+
+.liveBoxLeft
+{
+	float: left;
+	width: 287px;
+	display: inline;
+	margin: 0px 13px 0px 10px;
+}
+
+.liveBoxRight
+{
+	float: left;
+	width: 573px;
+	display: inline;
+	margin-right: 20px;
+	color: #fbf5e9;
+}
+
+.liveClear
+{
+	clear: left;	
+}
+
+.detailsBlueHead
+{
+	color: #3b82c5;
+	font-size: 14pt;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+.detailsHeadLink
+{
+		
+}
+
+.detailsHeadLink a:link {color: #3b82c5; text-decoration: underline; font-weight: bold;}
+.detailsHeadLink a:visited {color: #3b82c5; text-decoration: underline; font-weight: bold;}
+.detailsHeadLink a:hover {color: #3b82c5; text-decoration: underline; font-weight: bold;}
+.detailsHeadLink a:active {color: #3b82c5; text-decoration: underline; font-weight: bold;}
+
+.detailsWhiteHead
+{
+	color: #fff;
+	font-size: 20pt;
+	line-height: 21pt;
+	font-weight: bold;
+	padding-bottom: 7px;
+}
+
+.detailsAddt
+{
+	padding-bottom: 10px;	
+}
+
+.liveBlue
+{
+	color: #3b82c5;
+	font-weight: bold;
+	font-size: 9pt;	
+}
+
+.liveWhite
+{
+	color: #fff;
+	font-size: 10pt;
+	font-weight: bold;	
+}
+
+.liveDetailsP
+{
+	color: #fbf5e9;
+	font-size: 8pt;	
+}
+
+.LiveAtActivtyCell
+{
+	background: #fdf6e6 url(../images/MspWeb/LiveAtEduChallenge_LiveAtEdu_Spotlight.jpg) no-repeat;
+	width: 463px;
+	color: #ffffff;
+	position: relative;
+	left: -3px;	
+}
+
+.LiveAtActivtyCellPad
+{
+	padding: 83px 20px 0px 23px;	
+}
+
+.spreadHead
+{
+	font-weight: bold;
+	font-size: 12pt;	
+}
+
+.spreadText
+{
+	font-size: 8pt;
+	color: #382d24;
+	font-weight: bold;	
+}
+
+.liveHomeLeft
+{
+	float: left;
+	width: 82px;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;	
+}
+
+.liveHomeLeftPad
+{
+	padding: 45px 0px 0px 0px;	
+}
+
+.liveHomeRight
+{
+	float: left;
+	width: 328px;
+	font-size: 8pt;
+	color: #382d24;
+	font-weight: bold;
+}
+
+.liveHomeRightPad
+{
+	padding: 30px 0px 0px 20px;
+}
+
+.liveHomeClear
+{
+	clear: left;
+	text-align: right;
+	padding: 5px 0px 20px 0px;	
+}
+
+.liveHomeClear a:link {color: #3b82c5; text-decoration: underline; font-weight: bold;}
+.liveHomeClear a:visited {color: #3b82c5; text-decoration: underline; font-weight: bold;}
+.liveHomeClear a:hover {color: #3b82c5; text-decoration: underline; font-weight: bold;}
+.liveHomeClear a:active {color: #3b82c5; text-decoration: underline; font-weight: bold;}
+
+/* End MSP LiveAtEdu Activities Area */
+
+/* New Home Page Area */
+.countryBox { display: none; position: relative; left: 100px; top: 200px; z-index: 5; width: 800px; height: 400px;	color: #fff; background: #f11e6b; padding: 20px; }
+.caseClose { height: 23px; font-size: 10pt; text-align: right; }        
+.caseContent { padding-top: 10px; font-size: 9pt; line-height: 20pt; }
+.caseContent a:link {color: #ffffff; text-decoration: none;}
+.caseContent a:visited {color: #ffffff; text-decoration: none;}
+.caseContent a:hover {color: #ffffff; text-decoration: none; background: #333;}
+.caseContent a:active {color: #ffffff; text-decoration: none;}
+.linkSpacing { padding: 0 10px 10px 0; }
+#homeMain { padding: 0 32px 0 42px; }
+#homeContent { float: left; width: 940px; padding-bottom: 40px; }
+#headL { float: left; width: 429px; }
+#headR { float: left; width: 511px; height: 118px; background: #fff url(../images/Home/headerBg.gif) no-repeat; font-size: 8pt; }
+a.newsletter { text-decoration: none; position: relative; top: -29px; left: -185px; }
+a.newsletter:hover { text-decoration: underline; }
+#numStudents { width: 120px; float: left; padding-right: 8px; text-align: right; }
+#numCountries { width: 205px; float: left; padding-right: 5px; text-align: right; }
+#login { position: relative; left: 15px; }
+a.login { display: inline-block; width: 59px; height: 30px; background-repeat: no-repeat; }
+a.login:hover { background-position: 0px -30px; cursor: pointer; }
+a.contact { display: inline-block; width: 90px; height: 30px; background-repeat: no-repeat; }
+a.contact:hover { background-position: 0px -30px; cursor: pointer; }
+a.back { display: inline-block; width: 170px; height: 49px; background-repeat: no-repeat; float: left; }
+a.back:hover { background-position: 0px -49px; cursor: pointer; }
+.numBack { background: #fff; font-size: 8pt; padding: 0 3px 0 3px; }
+#homeHigh1 { float: left; width: 240px; height: 120px; background: url(../images/Home/home_redCircle.gif) no-repeat; }
+#homeHigh2 { float: left; width: 230px; }
+#homeHigh2 img:hover { opacity: .9; }
+#homeHigh3 { float: left; width: 230px; }
+#homeHigh3 img:hover { opacity: .9; }
+#homeHigh4 { float: left; width: 210px; }
+#homeHigh4 img:hover { opacity: .9; }
+#homeLife { float: left; width: 220px; height: 115px; background: #1c1c1c; }
+/* #homeLife img { margin: 5px 0 0 113px; } */
+#homeLife img { margin: 5px 0 0 25px; vertical-align: top; }
+#homeLifeLinks { float: left; width: 712px; height: 115px; background: #1c1c1c; color: #fff; }
+#homeLifeLinksPad { padding: 15px 0 0 20px; }
+#homeLifeLinksPad img { vertical-align: top; position: relative; top: -12px; }
+#homeLifeLinks a { color: #5a9bc1; font-weight: bold; text-decoration: none; font-size: 10pt; }
+#homeLifeLinks a:hover { text-decoration: underline; }
+#midFooterLinks { clear: left; background: #1c1c1c; width: 912px; padding: 0 10px 20px 10px; }
+#midFooterLinks h3 { color: #fff; font-size: 13pt; margin: 0 0 10px 0; }
+#midFooterLinks a { color: #5a9bc1; font-weight: bold; text-decoration: none; font-size: 10pt; }
+#midFooterLinks a:hover { text-decoration: underline; }
+#homeTrim { float: left; width: 10px; }
+#homeBlackDivider { clear: left; height: 17px; background: url(../images/Home/home_greyBlackDivider.gif) no-repeat; }
+#homeFoot { background: url(../images/Home/footer.gif) no-repeat; height: 10px; clear: left; }
+#homeFoot2 { background: url(../images/Home/home_footer.gif) no-repeat; height: 10px; }
+#terms { background: #1c1c1c; width: 912px; color: #fff; padding: 0 10px 0 10px; height: 45px; font-size: 8pt; }
+#terms a { color: #5a9bc1; font-weight: bold; text-decoration: none; font-size: 8pt; }
+#terms a:hover { text-decoration: underline; }
+#termsLeft { float: left; background: #1c1c1c; }
+#termsRight { float: right; background: #1c1c1c; text-align: right; }
+#termsRight img { margin-top: 5px; }
+#hosted { clear: both; background: #1c1c1c; font-size: 8pt; width: 932px; color: #fff; text-align: center; }
+#hosted a { color: #fff; text-decoration: none; }
+#hosted a:hover { text-decoration: underline; }
+.defaultNoSilver { display: none; background: url(../images/Home/defaultNonSilverlight.gif) no-repeat; position: absolute; left: 37%; top: 25%; z-index: 5; width: 517px; height: 388px; font-size: 8.5pt; }
+.defaultNoSilver img { position: relative; top: -11px; left: 482px; }
+.defaultNoSilver a:link { outline: none; color: #0a66cc; }
+.defaultNoSilver a:visited { outline: none; color: #0a66cc; }
+.defaultNoSilver div { position: relative; top: 290px; text-align: center; line-height: 15pt; }
+.boxBack { display: none; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: #000000; filter: alpha(opacity=80); opacity: 0.8; z-index: 5; padding: 0; margin: 0; overflow: auto; }
+a.defaultInstall { display: inline-block; width: 185px; height: 48px; background-repeat: no-repeat; position: relative; top: 218px; left: 140px; }
+a.defaultInstall:hover { background-position: 0px -49px; cursor: pointer; }
+
+#chainTitle { clear: left; float: left; width: 770px; height: 49px; background: #fff url(../images/Home/photochain_title.gif) no-repeat; }
+#topBack { clear: left; background: #1c1c1c url(../images/Home/pageBg_upper.gif) no-repeat; padding-bottom: 44px; }
+#topBack table { width: 100%; }
+#topBack tr { vertical-align: top; }
+#chainL { width: 520px; margin-left: 60px; }
+#chainR { width: 360px; }
+#chainAbout { padding: 0 20px 0 20px; }
+#chainAbout p { color: #fff; font-size: 8pt; }
+#chainAbout a:link {color: #ffffff;}
+.chainSort { background: url(../images/Home/photochain_nav_base.gif) no-repeat 40px; height: 53px; }
+a.filterButton { display: inline-block; width: 102px; height: 42px; background-repeat: no-repeat; font-size: 10pt; color: #fff; text-decoration: none; outline: none; }
+a.filterButton:hover { background-position: 0px -43px; cursor: pointer; }
+.filterPad { padding: 2px 0 0 55px; }
+.filterText { padding: 11px 0 0 12px; display: inline-block; }
+.chainCountryTitle { margin: 10px 0 0 70px; }
+#photoChainNoSilver { background: url(../images/Home/photoChainNonSilverlight.gif) no-repeat; height: 389px; width: 520px; font-size: 8.5pt; }
+#photoChainNoSilver a:link { outline: none; color: #0a66cc; }
+#photoChainNoSilver a:visited { outline: none; color: #0a66cc; }
+#photoChainNoSilver div { position: relative; top: 290px; text-align: center; line-height: 15pt; }
+a.photoInstall { display: inline-block; width: 185px; height: 48px; background-repeat: no-repeat; position: relative; top: 224px; left: 163px; }
+a.photoInstall:hover { background-position: 0px -49px; cursor: pointer; }
+#noSilverMap { display: none; position: relative; left: 520px; top: -389px; overflow: hidden; }
+
+#profileTitle { clear: left; float: left; width: 770px; height: 49px; background: #fff url(../images/Home/profiles_title.gif) no-repeat; }
+#profileL { width: 340px; margin-left: 60px; }
+#profileL table { width: 100%; padding-top: 50px; }
+#profileL td { vertical-align: top; color: #fff; font-size: 13pt; }
+#quoteL { width: 30px; }
+#quoteM { width: 280px; }
+#quoteR { width: 30px; text-align: right; vertical-align: bottom; }
+#profileR { width: 470px; margin: 0 50px 0 20px; color: #fff; }
+#profileR h1 { margin: 0 0 20px 0; padding: 0; font-size: 24pt; font-weight: normal; }
+#profileR h2 { margin: 3px 0 20px 0; padding: 0; font-size: 13.5pt; font-weight: normal; }
+#profileR h3 { margin: 0 0 1px 0; padding: 0; font-size: 11pt; font-weight: normal; }
+#profileR p { margin: 10px 0 10px 0; font-size: 8pt; }
+.profileS { background: #343434; height: 1px; }
+#bottomBack { clear: left; background: #1c1c1c url(../images/Home/pageBg_lower.gif) no-repeat; height: 425px; }
+#profileMore { padding: 0 0 6px 40px; }
+#profileMore img {float: left;}
+#pagingDropDown {float: right; margin: 20px 48px 0 0;}
+#pagingDropDown a {color: #5a9bc1; text-decoration: none; font-size: 9pt; font-weight: bold;}
+#profiles { padding: 0 39px 10px 60px; }
+.moreProfiles { border: solid 1px #2e2e2e; background: #161616; height: 125px; width: 271px; float: left; display: inline; margin: 0 7px 7px 0; }
+.moreProfiles:hover { background: #303030; border: solid 1px #161616; }
+.moreProfilesL { float: left; width: 112px; display: inline; margin: 6px 0 0 6px; }
+.moreProfilesR { float: left; width: 147px; padding-bottom: 5px; }
+.moreProfiles h4 { margin: 0; padding: 10px 0 0 0; font-size: 10pt; color: #fff; }
+.moreProfiles p { padding: 0; margin: 5px 5px 5px 0; color: #fff; font-size: 9pt; }
+.moreProfiles a { color: #5a9bc1; text-decoration: none; font-size: 9pt; }
+.moreProfiles a:hover { text-decoration: underline; }
+
+#applyTitle { clear: left; float: left; width: 770px; height: 49px; background: #fff url(../images/Home/applynow_title.gif) no-repeat; }
+#applyNow { background: #000; padding: 50px 0 50px 0; color: #fff; font-size: 11pt; height: 150px; }
+#apply1 { float: left; width: 250px; display: inline; margin: 0 55px 0 120px; }
+#apply2 { float: left; width: 140px; }
+#apply2 img { margin-top: 17px; }
+#apply3 { float: left; width: 375px; }
+#apply3 select { margin-top: 52px; }
+
+#searchTitle { clear: left; float: left; width: 770px; height: 49px; background: #fff url(../images/Home/search_title.gif) no-repeat; }
+
+#SLMain { clear: left; margin-top: -1px; }
+#contactTitle { clear: left; float: left; width: 770px; height: 49px; background: #fff url(../images/Home/contactus_title.gif) no-repeat; }
+#signInTitle { clear: left; float: left; width: 770px; height: 49px; background: #fff url(../images/Home/signIn_title.gif) no-repeat; }
+.blurb { display: none; position: relative; clear: both; z-index: 4; }
+.static-spotlight { clear: left; width: 940px; height: 297px; background: url(../images/Home/spotlight_static.jpg); }
+.static-spotlight a { display: block; height: 30px; position: relative; z-index: 1000; }
+.static-spotlight #who_are_we_looking_for { width: 167px; top: 202px; left: 261px; }
+.static-spotlight #what_can_you_expect { width: 149px; top: 170px; left: 464px; }
+.static-spotlight #whats_in_it_for_you { width: 140px; top: 134px; left: 648px; }
+.static-spotlight #apply_now { width: 126px; height: 42px; top: 95px; left: 810px;  }
+
+.static-spotlight #blurb-who_are_we_looking_for { left: 190px; top: -140px; width: 744px; }
+.static-spotlight #blurb-what_can_you_expect { left: 113px; top: -140px; width: 798px; }
+.static-spotlight #blurb-whats_in_it_for_you { left: 113px; top: -148px; width: 826px; }
+.static-spotlight #blurb-apply_now { left: 87px; top: -140px; width: 852px; }
